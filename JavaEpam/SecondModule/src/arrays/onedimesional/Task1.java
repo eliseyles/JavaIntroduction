@@ -4,6 +4,10 @@ import util.Input;
 
 public class Task1 {
 
+    public static final int ZERO = 0;
+    public static final int INVALIDRETURNVALUE = -1;
+
+
     public static void main(String[] args) {
         int[] arr = Input.nextIntArray();
         int k = Input.nextInt("Enter K: ");
@@ -13,15 +17,15 @@ public class Task1 {
 
     private static int findSumMultipleK(int[] arr, int k) {
         if (arr != null) {
-            int sum = 0;
-            for (int i = 0; i < arr.length; i++) {
-                if (arr[i] % k == 0) {
+            int sum = ZERO;
+            for (int i = ZERO; i < arr.length; i++) {
+                if (arr[i] % k == ZERO) {
                     sum += arr[i];
                 }
             }
             return sum;
         } else {
-            return -1;
+            return INVALIDRETURNVALUE;
         }
     }
 }

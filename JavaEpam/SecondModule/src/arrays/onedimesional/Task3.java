@@ -14,8 +14,8 @@ public class Task3 {
     }
 
     private static int countNegative(double[] arr) {
-        int count = 0;
-        for (int i = 0; i < arr.length; i++) {
+        int count = ZERO;
+        for (int i = ZERO; i < arr.length; i++) {
             if (arr[i] < ZERO) {
                 count++;
             }
@@ -24,8 +24,8 @@ public class Task3 {
     }
 
     private static int countZero(double[] arr) {
-        int count = 0;
-        for (int i = 0; i < arr.length; i++) {
+        int count = ZERO;
+        for (int i = ZERO; i < arr.length; i++) {
             if (arr[i] == ZERO) {
                 count++;
             }
@@ -34,8 +34,8 @@ public class Task3 {
     }
 
     private static int countPositive(double[] arr) {
-        int count = 0;
-        for (int i = 0; i < arr.length; i++) {
+        int count = ZERO;
+        for (int i = ZERO; i < arr.length; i++) {
             if (arr[i] > ZERO) {
                 count++;
             }

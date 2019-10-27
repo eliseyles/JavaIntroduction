@@ -4,6 +4,11 @@ import util.Input;
 
 
 public class Task2 {
+    public static final int ZERO = 0;
+    public static final int INVALIDPOSITIONRETURNVALUE = -1;
+    public static final double[] INVALIDARRAYRETURNVALUE = null;
+
+
 
     public static void main(String[] args) {
         double[] arr = Input.nextDoubleArray();
@@ -14,39 +19,39 @@ public class Task2 {
 
     private static double[] replaceNumbersBiggerZReturnArr(double[] arr, double zNumber) {
         if (arr != null) {
-            int replaceNumber = 0;
-            for (int i = 0; i < arr.length; i++) {
+            int replaceNumber = ZERO;
+            for (int i = ZERO; i < arr.length; i++) {
                 if (arr[i] > zNumber) {
                     arr[i] = zNumber;
                 }
             }
             return arr;
-        } else return null;
+        } else return INVALIDARRAYRETURNVALUE;
     }
 
     private static int replaceNumbersBiggerZReturnReplaceNumber(double[] arr, double zNumber) {
         if (arr != null) {
-            int replaceNumber = 0;
-            for (int i = 0; i < arr.length; i++) {
+            int replaceNumber = ZERO;
+            for (int i = ZERO; i < arr.length; i++) {
                 if (arr[i] > zNumber) {
                     arr[i] = zNumber;
                     replaceNumber++;
                 }
             }
             return replaceNumber;
-        } else return -1;
+        } else return INVALIDPOSITIONRETURNVALUE;
     }
 
     private static int findReplaceNumber(double[] arr, double[] replaceArr) {
         if (arr != null && replaceArr != null) {
-            int replaceNumber = 0;
-            for (int i = 0; i < arr.length; i++) {
+            int replaceNumber = ZERO;
+            for (int i = ZERO; i < arr.length; i++) {
                 if (arr[i] != replaceArr[i]) {
                     replaceNumber++;
                 }
             }
             return replaceNumber;
-        } else return -1;
+        } else return INVALIDPOSITIONRETURNVALUE;
     }
 }
 
