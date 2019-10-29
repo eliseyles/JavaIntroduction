@@ -64,4 +64,18 @@ public class Input {
         }
         return arr;
     }
+
+    public static int[][] nextIntSquareMatrix() {
+        System.out.println("Enter row and column number: ");
+        int row = scanner.nextInt();
+
+        int[][] arr = new int[row][row];
+        for (int i = START; i < row; i++) {
+            for (int j = START; j < row; j++){
+                System.out.println("Enter element: ");
+                arr[i][j] = scanner.nextInt();
+            }
+        }
+        return arr;
+    }
 }
