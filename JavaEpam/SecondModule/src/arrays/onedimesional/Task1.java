@@ -6,8 +6,8 @@ import util.Input;
 
 public class Task1 {
 
-    public static final int ZERO = 0;
-    public static final int INVALIDRETURNVALUE = -1;
+    public static final int START = 0;
+    public static final int INVALID_RETURN_VALUE = -1;
 
 
     public static void main(String[] args) {
@@ -19,15 +19,15 @@ public class Task1 {
 
     private static int findSumMultipleK(int[] arr, int k) {
         if (arr != null) {
-            int sum = ZERO;
-            for (int i = ZERO; i < arr.length; i++) {
-                if (arr[i] % k == ZERO) {
+            int sum = START;
+            for (int i = START; i < arr.length; i++) {
+                if (arr[i] % k == START) {
                     sum += arr[i];
                 }
             }
             return sum;
         } else {
-            return INVALIDRETURNVALUE;
+            return INVALID_RETURN_VALUE;
         }
     }
 }

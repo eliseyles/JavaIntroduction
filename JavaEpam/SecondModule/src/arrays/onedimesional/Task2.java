@@ -7,9 +7,9 @@ import util.Input;
 
 
 public class Task2 {
-    public static final int ZERO = 0;
-    public static final int INVALIDPOSITIONRETURNVALUE = -1;
-    public static final double[] INVALIDARRAYRETURNVALUE = null;
+    public static final int START = 0;
+    public static final int INVALID_POSITION_RETURN_VALUE = -1;
+    public static final double[] INVALID_ARRAY_RETURN_VALUE = null;
 
 
 
@@ -22,39 +22,39 @@ public class Task2 {
 
     private static double[] replaceNumbersBiggerZReturnArr(double[] arr, double zNumber) {
         if (arr != null) {
-            int replaceNumber = ZERO;
-            for (int i = ZERO; i < arr.length; i++) {
+            int replaceNumber = START;
+            for (int i = START; i < arr.length; i++) {
                 if (arr[i] > zNumber) {
                     arr[i] = zNumber;
                 }
             }
             return arr;
-        } else return INVALIDARRAYRETURNVALUE;
+        } else return INVALID_ARRAY_RETURN_VALUE;
     }
 
     private static int replaceNumbersBiggerZReturnReplaceNumber(double[] arr, double zNumber) {
         if (arr != null) {
-            int replaceNumber = ZERO;
-            for (int i = ZERO; i < arr.length; i++) {
+            int replaceNumber = START;
+            for (int i = START; i < arr.length; i++) {
                 if (arr[i] > zNumber) {
                     arr[i] = zNumber;
                     replaceNumber++;
                 }
             }
             return replaceNumber;
-        } else return INVALIDPOSITIONRETURNVALUE;
+        } else return INVALID_POSITION_RETURN_VALUE;
     }
 
     private static int findReplaceNumber(double[] arr, double[] replaceArr) {
         if (arr != null && replaceArr != null) {
-            int replaceNumber = ZERO;
-            for (int i = ZERO; i < arr.length; i++) {
+            int replaceNumber = START;
+            for (int i = START; i < arr.length; i++) {
                 if (arr[i] != replaceArr[i]) {
                     replaceNumber++;
                 }
             }
             return replaceNumber;
-        } else return INVALIDPOSITIONRETURNVALUE;
+        } else return INVALID_POSITION_RETURN_VALUE;
     }
 }
 

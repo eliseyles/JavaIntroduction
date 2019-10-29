@@ -6,8 +6,8 @@ import util.Input;
 import util.Output;
 
 public class Task4 {
-    public static final int ZERO = 0;
-    public static final int INVALIDRETURNVALUE = -1;
+    public static final int START = 0;
+    public static final int INVALID_RETURN_VALUE = -1;
 
     public static void main(String[] args) {
         double[] arr = Input.nextDoubleArray();
@@ -28,10 +28,10 @@ public class Task4 {
     }
 
     private static int findMinNumberPosition(double[] arr) {
-        if (arr != null && arr.length > ZERO) {
-            int position = ZERO;
-            double min = arr[ZERO];
-            for (int i = ZERO; i < arr.length; i++) {
+        if (arr != null && arr.length > START) {
+            int position = START;
+            double min = arr[START];
+            for (int i = START; i < arr.length; i++) {
                 if (arr[i] < min) {
                     position = i;
                     min = arr[i];
@@ -39,14 +39,14 @@ public class Task4 {
             }
             return position;
         }
-        return INVALIDRETURNVALUE;
+        return INVALID_RETURN_VALUE;
     }
 
     private static int findMaxNumberPosition(double[] arr) {
-        if (arr != null && arr.length > ZERO) {
-            int position = ZERO;
-            double max = arr[ZERO];
-            for (int i = ZERO; i < arr.length; i++) {
+        if (arr != null && arr.length > START) {
+            int position = START;
+            double max = arr[START];
+            for (int i = START; i < arr.length; i++) {
                 if (arr[i] > max) {
                     position = i;
                     max = arr[i];
@@ -54,6 +54,6 @@ public class Task4 {
             }
             return position;
         }
-        return INVALIDRETURNVALUE;
+        return INVALID_RETURN_VALUE;
     }
 }

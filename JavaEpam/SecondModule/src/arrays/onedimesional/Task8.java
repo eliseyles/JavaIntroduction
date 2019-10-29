@@ -9,6 +9,8 @@ import java.util.ArrayList;
 
 public class Task8 {
     public static final int INVALIDVALUE = Integer.MIN_VALUE;
+    public static final int START = 0;
+
 
     public static void main(String[] args) {
         int[] arr = Input.nextIntArray();
@@ -19,7 +21,7 @@ public class Task8 {
     private static ArrayList<Integer> makeArrWithoutMin(int[] arr) {
         if (arr != null) {
             ArrayList<Integer> arrayList = new ArrayList<>();
-            for (int i = 0; i < arr.length; i++) {
+            for (int i = START; i < arr.length; i++) {
                 if (arr[i] != findMin(arr)) {
                     arrayList.add(arr[i]);
                 }
@@ -31,8 +33,8 @@ public class Task8 {
 
     private static int findMin(int[] arr) {
         if (arr != null) {
-            int min = arr[0];
-            for (int i = 0; i < arr.length; i++) {
+            int min = arr[START];
+            for (int i = START; i < arr.length; i++) {
                 if (arr[i] < min) {
                     min = arr[i];
                 }

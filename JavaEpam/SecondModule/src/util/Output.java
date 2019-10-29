@@ -16,4 +16,11 @@ public class Output {
         }
         System.out.println();
     }
+
+    public static void displayIntArray(int[] arr) {
+        for (int i = ZERO; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
 }

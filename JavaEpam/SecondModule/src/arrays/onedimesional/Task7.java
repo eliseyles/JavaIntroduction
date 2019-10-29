@@ -8,6 +8,10 @@ import util.Output;
 
 public class Task7 {
 
+    public static final int START = 0;
+    public static final int HALF = 2;
+    public static final int OFFSET = -1;
+
     public static void main(String[] args) {
         double[] arr = Input.nextDoubleArray();
 
@@ -18,9 +22,9 @@ public class Task7 {
     public static double findMaxElementSum(double[] arr) {
         double max = Double.MIN_VALUE;
         if (arr != null) {
-            for (int i = 0; i < arr.length / 2; i++) {
-                if (arr[i] + arr[arr.length - 1 - i] > max) {
-                    max = arr[i] + arr[arr.length - 1 - i];
+            for (int i = START; i < arr.length / HALF; i++) {
+                if (arr[i] + arr[arr.length + OFFSET - i] > max) {
+                    max = arr[i] + arr[arr.length + OFFSET - i];
                 }
             }
         }

@@ -7,11 +7,11 @@ import util.Input;
 
 public class Task6 {
 
-    public static final Double WRONGARRAYRESULT = Double.MAX_VALUE;
-    public static final int ZERO = 0;
-    public static final int PRIMEDIVIDERNUMBER = 2;
-    public static final int FIRSTNONPRIMEDIVIDER = 2;
-    public static final int NUMBERDIVIDERS = 2;
+    public static final Double WRONG_ARRAY_RESULT = Double.MAX_VALUE;
+    public static final int START = 0;
+    public static final int PRIME_DIVIDER_NUMBER = 2;
+    public static final int FIRST_NON_PRIME_DIVIDER = 2;
+    public static final int NUMBER_DIVIDERS = 2;
 
     public static void main(String[] args) {
         double[] arr = Input.nextDoubleArray();
@@ -20,26 +20,26 @@ public class Task6 {
 
     private static double sumOnPrimePosition(double[] arr) {
         if (arr != null) {
-            double sum = ZERO;
-            for (int i = ZERO; i < arr.length; i++) {
+            double sum = START;
+            for (int i = START; i < arr.length; i++) {
                 if (isPrime(i)) {
                     sum += arr[i];
                 }
             }
             return sum;
         }
-        return WRONGARRAYRESULT;
+        return WRONG_ARRAY_RESULT;
     }
 
     private static boolean isPrime(int position) {
-        if (position > ZERO) {
-            int divider = PRIMEDIVIDERNUMBER;
-            for (int i = FIRSTNONPRIMEDIVIDER; i <= Math.sqrt(position); i++) {
-                if (position % i == ZERO) {
-                    divider += NUMBERDIVIDERS;
+        if (position > START) {
+            int divider = PRIME_DIVIDER_NUMBER;
+            for (int i = FIRST_NON_PRIME_DIVIDER; i <= Math.sqrt(position); i++) {
+                if (position % i == START) {
+                    divider += NUMBER_DIVIDERS;
                 }
             }
-            return divider == PRIMEDIVIDERNUMBER;
+            return divider == PRIME_DIVIDER_NUMBER;
         }
         return false;
     }

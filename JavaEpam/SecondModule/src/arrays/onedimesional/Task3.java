@@ -6,7 +6,7 @@ package arrays.onedimesional;
 import util.Input;
 
 public class Task3 {
-    public static final int ZERO = 0;
+    public static final int START = 0;
 
     public static void main(String[] args) {
         double[] arr = Input.nextDoubleArray();
@@ -17,9 +17,9 @@ public class Task3 {
     }
 
     private static int countNegative(double[] arr) {
-        int count = ZERO;
-        for (int i = ZERO; i < arr.length; i++) {
-            if (arr[i] < ZERO) {
+        int count = START;
+        for (int i = START; i < arr.length; i++) {
+            if (arr[i] < START) {
                 count++;
             }
         }
@@ -27,9 +27,9 @@ public class Task3 {
     }
 
     private static int countZero(double[] arr) {
-        int count = ZERO;
-        for (int i = ZERO; i < arr.length; i++) {
-            if (arr[i] == ZERO) {
+        int count = START;
+        for (int i = START; i < arr.length; i++) {
+            if (arr[i] == START) {
                 count++;
             }
         }
@@ -37,9 +37,9 @@ public class Task3 {
     }
 
     private static int countPositive(double[] arr) {
-        int count = ZERO;
-        for (int i = ZERO; i < arr.length; i++) {
-            if (arr[i] > ZERO) {
+        int count = START;
+        for (int i = START; i < arr.length; i++) {
+            if (arr[i] > START) {
                 count++;
             }
         }
