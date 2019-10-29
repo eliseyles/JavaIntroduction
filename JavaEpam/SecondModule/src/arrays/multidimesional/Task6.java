@@ -12,7 +12,6 @@ public class Task6 {
     public static final int FILLER_ZERO = 0;
 
 
-
     public static void main(String[] args) {
         int n = Input.nextInt("Enter n: ");
 
@@ -20,7 +19,7 @@ public class Task6 {
     }
 
     public static int[][] createMatrixByLaw(int n) {
-        if (isEven(n)) {
+        if (isEven(n) && n > 0) {
             int[][] matrix = new int[n][n];
             for (int i = START; i < matrix.length / 2; i++) {
                 for (int j = START; j < matrix[i].length; j++) {
@@ -38,7 +37,7 @@ public class Task6 {
         return null;
     }
 
-    private static boolean isEven(int number){
+    private static boolean isEven(int number) {
         return number % 2 == 0;
     }
 

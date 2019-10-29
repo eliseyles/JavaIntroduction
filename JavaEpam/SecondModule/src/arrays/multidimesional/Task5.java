@@ -18,7 +18,7 @@ public class Task5 {
     }
 
     public static int[][] createMatrixByLaw(int n) {
-        if (isEven(n)) {
+        if (isEven(n) && n > 0) {
             int[][] matrix = new int[n][n];
             for (int i = START; i < matrix.length; i++) {
                 for (int j = START; j < matrix[i].length; j++) {

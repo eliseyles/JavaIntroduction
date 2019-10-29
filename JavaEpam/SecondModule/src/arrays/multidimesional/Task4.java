@@ -17,7 +17,7 @@ public class Task4 {
     }
 
     public static int[][] createMatrixByLaw(int n) {
-        if (isEven(n)) {
+        if (isEven(n) && n > 0) {
             int[][] matrix = new int[n][n];
             for (int i = START; i < matrix.length; i++) {
                 for (int j = START; j < matrix[i].length; j++) {
@@ -33,7 +33,7 @@ public class Task4 {
         return null;
     }
 
-    private static boolean isEven(int number){
+    private static boolean isEven(int number) {
         return number % 2 == 0;
     }
 }

@@ -35,4 +35,14 @@ public class Output {
         } else
             System.out.println(WRONG_MATRIX);
     }
+
+    public static void displayDoubleMatrix(double[][] arr) {
+        if (arr != null) {
+            for (double[] i : arr) {
+                displayDoubleArray(i);
+            }
+            System.out.println();
+        } else
+            System.out.println(WRONG_MATRIX);
+    }
 }
