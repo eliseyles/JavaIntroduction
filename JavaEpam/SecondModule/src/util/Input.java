@@ -3,7 +3,9 @@ package util;
 import java.util.Scanner;
 
 public class Input {
+
     private static final Scanner scanner = new Scanner(System.in);
+    private static final int START = 0;
 
     public static int nextInt(String text) {
         System.out.println(text);
@@ -14,7 +16,7 @@ public class Input {
         System.out.println("Enter array size: ");
         int size = scanner.nextInt();
         double[] arr = new double[size];
-        for (int i = 0; i < size; i++) {
+        for (int i = START; i < size; i++) {
             System.out.println("Enter element: ");
             arr[i] = scanner.nextDouble();
         }
@@ -26,15 +28,40 @@ public class Input {
         System.out.println("Enter array size: ");
         int size = scanner.nextInt();
         int[] arr = new int[size];
-        for (int i = 0; i < size; i++) {
+        for (int i = START; i < size; i++) {
             System.out.println("Enter element: ");
             arr[i] = scanner.nextInt();
         }
         return arr;
     }
 
-    public static void main(String[] args) {
-        System.out.println(nextInt("fhdkjgh"));
+    public static double[][] nextDoubleMatrix() {
+        System.out.println("Enter row number: ");
+        int row = scanner.nextInt();
+        System.out.println("Enter column number: ");
+        int column = scanner.nextInt();
+        double[][] arr = new double[row][column];
+        for (int i = START; i < row; i++) {
+            for (int j = START; j < column; j++){
+                System.out.println("Enter element: ");
+                arr[i][j] = scanner.nextDouble();
+            }
+        }
+        return arr;
     }
 
+    public static int[][] nextIntMatrix() {
+        System.out.println("Enter row number: ");
+        int row = scanner.nextInt();
+        System.out.println("Enter column number: ");
+        int column = scanner.nextInt();
+        int[][] arr = new int[row][column];
+        for (int i = START; i < row; i++) {
+            for (int j = START; j < column; j++){
+                System.out.println("Enter element: ");
+                arr[i][j] = scanner.nextInt();
+            }
+        }
+        return arr;
+    }
 }
