@@ -13,10 +13,10 @@ public class Task4 {
     public static void main(String[] args) {
         int n = Input.nextInt("Enter n: ");
 
-        Output.displayIntMatrix(createMatrixByLow(n));
+        Output.displayIntMatrix(createMatrixByLaw(n));
     }
 
-    public static int[][] createMatrixByLow(int n) {
+    public static int[][] createMatrixByLaw(int n) {
         if (isEven(n)) {
             int[][] matrix = new int[n][n];
             for (int i = START; i < matrix.length; i++) {

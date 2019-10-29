@@ -28,11 +28,11 @@ public class Output {
 
     public static void displayIntMatrix(int[][] arr) {
         if (arr != null) {
-            for (int[] i: arr) {
+            for (int[] i : arr) {
                 displayIntArray(i);
             }
             System.out.println();
-        }
-        System.out.println(WRONG_MATRIX);
+        } else
+            System.out.println(WRONG_MATRIX);
     }
 }
