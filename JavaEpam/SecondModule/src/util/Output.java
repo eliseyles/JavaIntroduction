@@ -2,6 +2,8 @@ package util;
 
 public class Output {
     private static final int START = 0;
+    public static final String WRONG_MATRIX = "Matrix is null";
+
 
     public static <T> void displayArray(T[] arr) {
         for (int i = START; i < arr.length; i++) {
@@ -25,9 +27,12 @@ public class Output {
     }
 
     public static void displayIntMatrix(int[][] arr) {
-        for (int i = START; i < arr.length; i++) {
-            displayIntArray(arr[i]);
+        if (arr != null) {
+            for (int[] i: arr) {
+                displayIntArray(i);
+            }
+            System.out.println();
         }
-        System.out.println();
+        System.out.println(WRONG_MATRIX);
     }
 }
