@@ -9,7 +9,6 @@ import util.Output;
 
 public class Task8 {
     public static final int START = 0;
-    public static final int OFFSET = 1;
 
 
     public static void main(String[] args) {
