@@ -1,5 +1,6 @@
 package util;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Input {
@@ -77,5 +78,15 @@ public class Input {
             }
         }
         return arr;
+    }
+
+    public static int[][] randomIntMatrixFilling(int row, int column, int lowBound, int highBound){
+        int[][] matrix = new int[row][column];
+        for (int i = START; i < matrix.length; i++) {
+            for (int j = START; j < matrix[i].length; j++) {
+                matrix[i][j] = new Random().nextInt(highBound + Math.abs(lowBound)) + lowBound;
+            }
+        }
+        return matrix;
     }
 }
