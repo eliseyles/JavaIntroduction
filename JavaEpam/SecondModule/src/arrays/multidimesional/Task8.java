@@ -25,9 +25,9 @@ public class Task8 {
         if (matrix != null){
             if (isInBound(first, matrix.length) || isInBound(second, matrix.length)) {
                 for (int i = START; i < matrix.length; i++) {
-                    double temp = matrix[i][first - OFFSET];
-                    matrix[i][first - OFFSET] = matrix[i][second - OFFSET];
-                    matrix[i][second - OFFSET] = temp;
+                    double temp = matrix[i][first];
+                    matrix[i][first] = matrix[i][second];
+                    matrix[i][second] = temp;
                 }
             }
         }
