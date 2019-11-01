@@ -89,4 +89,12 @@ public class Input {
         }
         return matrix;
     }
+
+    public static int[] randomIntArrayFilling(int size, int lowBound, int highBound){
+        int[] arr = new int[size];
+        for (int i = START; i < arr.length; i++) {
+                arr[i] = new Random().nextInt(highBound + Math.abs(lowBound)) + lowBound;
+        }
+        return arr;
+    }
 }

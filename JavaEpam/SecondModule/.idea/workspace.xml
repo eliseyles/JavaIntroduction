@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="801436fa-5277-4e75-9657-357d52c95a85" name="Default Changelist" comment="" />
+    <list default="true" id="801436fa-5277-4e75-9657-357d52c95a85" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/util/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Input.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,22 +34,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="45" />
+          <entry key="java" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="45" />
+          <entry key="JAVA" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8039" />
+          <entry key="java" value="8676" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8039" />
+          <entry key="JAVA" value="8676" />
         </counts>
       </usages-collector>
     </session>
@@ -55,74 +57,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrays/multidimesional/Task10.java">
+        <entry file="file://$PROJECT_DIR$/src/arrays/sorts/Task1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" selection-start-line="12" selection-end-line="14" />
+            <state relative-caret-position="545">
+              <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrays/multidimesional/Task12.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" selection-start-line="8" selection-end-line="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrays/multidimesional/Task13.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#sortAsc#0;class#Task13#0" />
-                <element signature="method#sortColumnDesc#0;class#Task13#0" />
-                <element signature="method#sortDesc#0;class#Task13#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrays/multidimesional/Task14.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#1339#0" expanded="true" />
-                <element signature="imports" expanded="true" />
+                <marker date="1572540891220" expanded="true" signature="1221:1491" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/arrays/multidimesional/Task15.java">
+        <entry file="file://$PROJECT_DIR$/src/arrays/sorts/Task2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrays/multidimesional/Task16.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="114" lean-forward="true" selection-start-column="86" selection-end-column="114" />
+            <state relative-caret-position="68">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -130,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/util/Input.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="83" column="46" selection-start-line="83" selection-start-column="46" selection-end-line="83" selection-end-column="46" />
+            <state relative-caret-position="280">
+              <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,12 +127,14 @@
         <option value="$PROJECT_DIR$/src/arrays/multidimesional/Task8.java" />
         <option value="$PROJECT_DIR$/src/arrays/multidimesional/Task10.java" />
         <option value="$PROJECT_DIR$/src/arrays/multidimesional/Task11.java" />
-        <option value="$PROJECT_DIR$/src/util/Input.java" />
         <option value="$PROJECT_DIR$/src/arrays/multidimesional/Task12.java" />
         <option value="$PROJECT_DIR$/src/arrays/multidimesional/Task13.java" />
         <option value="$PROJECT_DIR$/src/arrays/multidimesional/Task14.java" />
         <option value="$PROJECT_DIR$/src/arrays/multidimesional/Task15.java" />
         <option value="$PROJECT_DIR$/src/arrays/multidimesional/Task16.java" />
+        <option value="$PROJECT_DIR$/src/util/Input.java" />
+        <option value="$PROJECT_DIR$/src/arrays/sorts/Task1.java" />
+        <option value="$PROJECT_DIR$/src/arrays/sorts/Task2.java" />
       </list>
     </option>
   </component>
@@ -219,6 +172,13 @@
               <item name="SecondModule" type="b2602c69:ProjectViewProjectNode" />
               <item name="SecondModule" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="sorts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondModule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondModule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -228,7 +188,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572503873263" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572541910080" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -243,13 +203,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task15">
-    <configuration name="Task11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.multidimesional.Task11" />
+  <component name="RunManager" selected="Application.Task1">
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.sorts.Task1" />
       <module name="SecondModule" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.multidimesional.*" />
+          <option name="PATTERN" value="arrays.sorts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -310,19 +270,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Task11" />
       <item itemvalue="Application.Task12" />
       <item itemvalue="Application.Task13" />
       <item itemvalue="Application.Task14" />
       <item itemvalue="Application.Task15" />
+      <item itemvalue="Application.Task1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task1" />
         <item itemvalue="Application.Task15" />
         <item itemvalue="Application.Task14" />
         <item itemvalue="Application.Task13" />
         <item itemvalue="Application.Task12" />
-        <item itemvalue="Application.Task11" />
       </list>
     </recent_temporary>
   </component>
@@ -341,6 +301,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -351,7 +312,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18003273" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13584287" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -570,16 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/Input.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="83" column="46" selection-start-line="83" selection-start-column="46" selection-end-line="83" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/multidimesional/Task14.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -594,17 +545,45 @@
     <entry file="file://$PROJECT_DIR$/src/arrays/multidimesional/Task16.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="114" lean-forward="true" selection-start-column="86" selection-end-column="114" />
+          <caret column="114" selection-start-column="86" selection-end-column="114" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/multidimesional/Task15.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/Input.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/sorts/Task1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1572540891220" expanded="true" signature="1221:1491" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/sorts/Task2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
