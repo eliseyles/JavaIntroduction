@@ -1,5 +1,5 @@
-onedimentional Task9, переписать таски с ArrayList
+onedimentional Task9, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ ArrayList
 
-multidementional Task16, переписать таски с ArrayList
+multidementional Task16, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ ArrayList
 
-sorts task2
+sorts task2, task5, task6, task8
