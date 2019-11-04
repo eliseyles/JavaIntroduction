@@ -98,17 +98,33 @@ public class Input {
         return arr;
     }
 
-    public static int[][] nextFractionArray() {
-        System.out.println("Enter fraction number: ");
+    public static int[][] nextDualIntArray(String text, String s1, String s2) {
+        System.out.println(text);
         int row = scanner.nextInt();
 
         int[][] arr = new int[row][2];
 
         for (int i = START; i < row; i++) {
-            System.out.println("Enter numerator: ");
+            System.out.printf("Enter %s: \n", s1);
             arr[i][0] = scanner.nextInt();
-            System.out.println("Enter denominator: ");
+            System.out.printf("Enter %s: \n", s2);
             arr[i][1] = scanner.nextInt();
+        }
+
+        return arr;
+    }
+
+    public static double[][] nextDualDoubleArray(String text) {
+        System.out.println(text);
+        int row = scanner.nextInt();
+
+        double[][] arr = new double[row][2];
+
+        for (int i = START; i < row; i++) {
+            System.out.println("Enter numerator: ");
+            arr[i][0] = scanner.nextDouble();
+            System.out.println("Enter denominator: ");
+            arr[i][1] = scanner.nextDouble();
         }
 
         return arr;
