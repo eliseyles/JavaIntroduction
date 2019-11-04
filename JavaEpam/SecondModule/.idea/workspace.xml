@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="801436fa-5277-4e75-9657-357d52c95a85" name="Default Changelist" comment="" />
+    <list default="true" id="801436fa-5277-4e75-9657-357d52c95a85" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/decomposition/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/decomposition/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/decomposition/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/decomposition/Task5.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,25 +36,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="69" />
+          <entry key="java" value="71" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="69" />
+          <entry key="JAVA" value="71" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="13028" />
+          <entry key="java" value="13214" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13028" />
+          <entry key="JAVA" value="13214" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
@@ -103,14 +107,40 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arrays/decomposition/Task5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+            <state relative-caret-position="425">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#0#246#0" expanded="true" />
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/arrays/decomposition/Task6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arrays/decomposition/Task1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="method#LCMTwoNumbers#0;class#Task1#0" />
               </folding>
             </state>
           </provider>
@@ -186,7 +216,6 @@
         <option value="$PROJECT_DIR$/src/arrays/sorts/Task5.java" />
         <option value="$PROJECT_DIR$/src/arrays/sorts/Task6.java" />
         <option value="$PROJECT_DIR$/src/arrays/sorts/Task7.java" />
-        <option value="$PROJECT_DIR$/src/arrays/decomposition/Task1.java" />
         <option value="$PROJECT_DIR$/src/arrays/sorts/Task8.java" />
         <option value="$PROJECT_DIR$/src/arrays/decomposition/Task2.java" />
         <option value="$PROJECT_DIR$/src/arrays/decomposition/Task3.java" />
@@ -194,6 +223,8 @@
         <option value="$PROJECT_DIR$/src/util/Input.java" />
         <option value="$PROJECT_DIR$/src/arrays/decomposition/Task4.java" />
         <option value="$PROJECT_DIR$/src/arrays/decomposition/Task5.java" />
+        <option value="$PROJECT_DIR$/src/arrays/decomposition/Task1.java" />
+        <option value="$PROJECT_DIR$/src/arrays/decomposition/Task6.java" />
       </list>
     </option>
   </component>
@@ -254,7 +285,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572851602349" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572853076302" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -269,7 +300,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task5">
+  <component name="RunManager" selected="Application.Task6">
     <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.decomposition.Task2" />
       <module name="SecondModule" />
@@ -322,12 +353,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.sorts.Task8" />
+    <configuration name="Task6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.decomposition.Task6" />
       <module name="SecondModule" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.sorts.*" />
+          <option name="PATTERN" value="arrays.decomposition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -336,19 +367,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Task8" />
       <item itemvalue="Application.Task2" />
       <item itemvalue="Application.Task3" />
       <item itemvalue="Application.Task4" />
       <item itemvalue="Application.Task5" />
+      <item itemvalue="Application.Task6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task6" />
         <item itemvalue="Application.Task5" />
         <item itemvalue="Application.Task4" />
         <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Task8" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +409,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28968903" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26350245" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -734,25 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/decomposition/Task1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#182#0" expanded="true" />
-            <element signature="method#LCMTwoNumbers#0;class#Task1#0" />
-            <element signature="method#MCD#0;class#Task1#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TODO.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/sorts/Task6.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -842,11 +854,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/decomposition/Task5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#0#246#0" expanded="true" />
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODO.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/decomposition/Task1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="method#LCMTwoNumbers#0;class#Task1#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/decomposition/Task6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
           </folding>
         </state>
       </provider>

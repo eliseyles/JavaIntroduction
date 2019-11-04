@@ -1,23 +1,22 @@
-//1. Написать метод(методы) для нахождения наибольшего общего делителя и наименьшего общего кратного двух
-//натуральных чисел:
+//6. Написать метод(методы), проверяющий, являются ли данные три числа взаимно простыми.
 
 package arrays.decomposition;
 
-public class Task1 {
+import util.Input;
+import util.Output;
+
+public class Task6 {
 
     public static final int ZERO = 0;
-    public static final int WRONG_VALUE = -1;
-    public static final int FIRST_NUMBER = 15;
-    public static final int SECOND_NUMBER = 25;
+    public static final int WRONG_VALUE = Integer.MIN_VALUE;
+
 
     public static void main(String[] args) {
-        System.out.println(LCMTwoNumbers(FIRST_NUMBER, SECOND_NUMBER));
-
+        System.out.println(isMutuallySimple(-99, 17, -27));
     }
 
-    public static int LCMTwoNumbers(int firstNumber, int secondNumber) {
-        int mcd = GCF(firstNumber, secondNumber);
-        return (firstNumber * secondNumber) / mcd;
+    public static boolean isMutuallySimple(int first, int second, int third) {
+        return GCF(first, GCF(second, third)) == 1;
     }
 
     private static int GCF(int firstNumber, int secondNumber) {

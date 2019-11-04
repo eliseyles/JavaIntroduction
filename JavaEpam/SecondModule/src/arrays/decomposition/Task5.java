@@ -15,8 +15,6 @@ public class Task5 {
         int[] arr = Input.randomIntArrayFilling(10, -10, 20);
         Output.displayIntArray(arr);
         System.out.println(findSecondMax(arr));
-//        Output.displayIntMatrix(findMaxDistance(arr));
-//        System.out.println(findDistance(new int[]{0, 0}, new int[]{3, 4}));
     }
 
     public static int findSecondMax(int[] arr) {
@@ -25,7 +23,6 @@ public class Task5 {
             int secondMax = Integer.MIN_VALUE;
 
             for (int i = ZERO_INDEX; i < arr.length; i++) {
-//                System.out.println(arr[i]);
                 if (arr[i] > secondMax && arr[i] != max) {
                     secondMax = arr[i];
                 }
