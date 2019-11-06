@@ -3,17 +3,14 @@
 
 package arrays.decomposition;
 
-import util.Input;
-import util.Output;
-
 public class Task9 {
     public static final int ZERO = 0;
     public static final int WRONG_VALUE = -1;
+    public static final int HALF = 2;
 
 
     public static void main(String[] args) {
         System.out.println(findQuadrangleSquare(5, 2, 5, 2));
-//        System.out.println(findSumThreeElements(arr, POSITION));
     }
 
     public static double findQuadrangleSquare(double firstSide, double secondSide,
@@ -28,7 +25,7 @@ public class Task9 {
     private static double findHalfPerimetr(double firstSide, double secondSide,
                                            double thirdSide, double fourthSide) {
         if (firstSide > ZERO && secondSide > ZERO && thirdSide > ZERO && fourthSide > ZERO) {
-            return (firstSide + secondSide + thirdSide + fourthSide) / 2;
+            return (firstSide + secondSide + thirdSide + fourthSide) / HALF;
         }
         return WRONG_VALUE;
 

@@ -3,3 +3,5 @@ onedimentional Task9, ���������� ����� � ArrayLi
 multidementional Task16, ���������� ����� � ArrayList
 
 sorts task2, task5, task6, task8
+
+decomposition task10
