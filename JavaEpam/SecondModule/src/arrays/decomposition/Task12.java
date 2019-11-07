@@ -9,7 +9,6 @@ import java.util.Arrays;
 
 public class Task12 {
     public static final int ZERO = 0;
-    public static final int WRONG_VALUE = -1;
     public static final int NUMBER_SYSTEM = 10;
     public static final int OFFSET = 1;
 
