@@ -4,4 +4,4 @@ multidementional Task16, ���������� ����� � Arra
 
 sorts task2, task5, task6, task8
 
-decomposition task10
+decomposition task10jgkldfjg
