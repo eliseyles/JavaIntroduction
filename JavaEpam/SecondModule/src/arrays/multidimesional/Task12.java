@@ -18,7 +18,7 @@ public class Task12 {
     }
 
     public static int[][] sortRowAsc(int[][] matrix) {
-        if(matrix != null){
+        if (matrix != null) {
             for (int i = START; i < matrix.length; i++) {
                 matrix[i] = sortAsc(matrix[i]);
             }
@@ -28,7 +28,7 @@ public class Task12 {
     }
 
     private static int[] sortAsc(int[] row) {
-        if (row != null){
+        if (row != null) {
             for (int i = START; i < row.length; i++) {
                 for (int j = START; j < row.length; j++) {
                     if (row[i] < row[j]) {
@@ -44,7 +44,7 @@ public class Task12 {
     }
 
     public static int[][] sortRowDesc(int[][] matrix) {
-        if(matrix != null){
+        if (matrix != null) {
             for (int i = START; i < matrix.length; i++) {
                 matrix[i] = sortDesc(matrix[i]);
             }
@@ -54,7 +54,7 @@ public class Task12 {
     }
 
     private static int[] sortDesc(int[] row) {
-        if (row != null){
+        if (row != null) {
             for (int i = START; i < row.length; i++) {
                 for (int j = START; j < row.length; j++) {
                     if (row[i] > row[j]) {

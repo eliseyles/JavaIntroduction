@@ -18,7 +18,7 @@ public class Task14 {
         int row = Input.nextInt("Enter row number: ");
         int column = Input.nextInt("Enter column number: ");
 
-        int[][]binaryMatrix = randomGenerateBinaryMatrix(row, column);
+        int[][] binaryMatrix = randomGenerateBinaryMatrix(row, column);
         Output.displayIntMatrix(binaryMatrix);
     }
 
@@ -29,7 +29,7 @@ public class Task14 {
                 int unitsNumber = i;
                 int position = new Random().nextInt(row);
                 while (unitsNumber != 0) {
-                    while(matrix[position][i] != 0){
+                    while (matrix[position][i] != 0) {
                         position = new Random().nextInt(row);
                     }
                     matrix[position][i] = 1;

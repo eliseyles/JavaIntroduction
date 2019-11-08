@@ -22,7 +22,7 @@ public class Task3 {
     }
 
     public static void printRowByNumber(int[][] matrix, int rowNumber) {
-        if (matrix != null && rowNumber >= START && rowNumber < matrix.length){
+        if (matrix != null && rowNumber >= START && rowNumber < matrix.length) {
             System.out.printf(ROW_PRINT, rowNumber);
             for (int i = START; i < matrix[rowNumber].length; i++) {
                 System.out.print(matrix[rowNumber][i] + " ");
@@ -33,7 +33,7 @@ public class Task3 {
     }
 
     public static void printColumnByNumber(int[][] matrix, int columnNumber) {
-        if (matrix != null && columnNumber >= START && columnNumber < matrix[START].length){
+        if (matrix != null && columnNumber >= START && columnNumber < matrix[START].length) {
             System.out.printf(COLUMN_PRINT, columnNumber);
             for (int i = START; i < matrix.length; i++) {
                 System.out.print(matrix[i][columnNumber] + " ");

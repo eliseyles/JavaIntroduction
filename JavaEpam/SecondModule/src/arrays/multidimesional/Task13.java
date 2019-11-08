@@ -19,7 +19,7 @@ public class Task13 {
     }
 
     public static int[][] sortColumnAsc(int[][] matrix) {
-        if(matrix != null){
+        if (matrix != null) {
             int[] column = new int[matrix.length];
             for (int i = START; i < matrix[START].length; i++) {
                 for (int j = START; j < matrix.length; j++) {
@@ -36,7 +36,7 @@ public class Task13 {
     }
 
     private static int[] sortAsc(int[] row) {
-        if (row != null){
+        if (row != null) {
             for (int i = START; i < row.length; i++) {
                 for (int j = START; j < row.length; j++) {
                     if (row[i] < row[j]) {
@@ -52,7 +52,7 @@ public class Task13 {
     }
 
     public static int[][] sortColumnDesc(int[][] matrix) {
-        if(matrix != null){
+        if (matrix != null) {
             int[] column = new int[matrix.length];
             for (int i = START; i < matrix[START].length; i++) {
                 for (int j = START; j < matrix.length; j++) {
@@ -70,7 +70,7 @@ public class Task13 {
     }
 
     private static int[] sortDesc(int[] row) {
-        if (row != null){
+        if (row != null) {
             for (int i = START; i < row.length; i++) {
                 for (int j = START; j < row.length; j++) {
                     if (row[i] > row[j]) {

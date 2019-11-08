@@ -16,14 +16,13 @@ public class Task11 {
     public static final int MIN_NUMBER_COUNT = 0;
 
 
-
     public static void main(String[] args) {
         int[][] matrix = randomMatrixFilling();
         displayIntMatrix(matrix);
         printRowNumber(matrix);
     }
 
-    public static int[][] randomMatrixFilling(){
+    public static int[][] randomMatrixFilling() {
         int[][] matrix = new int[ROW_COUNT][COLUMN_COUNT];
         for (int i = START; i < matrix.length; i++) {
             for (int j = START; j < matrix[i].length; j++) {

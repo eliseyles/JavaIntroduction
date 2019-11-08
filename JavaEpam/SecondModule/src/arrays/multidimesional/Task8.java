@@ -21,7 +21,7 @@ public class Task8 {
     }
 
     public static double[][] replaceTwoColumn(double[][] matrix, int first, int second) {
-        if (matrix != null){
+        if (matrix != null) {
             if (isInBound(first, matrix.length) || isInBound(second, matrix.length)) {
                 for (int i = START; i < matrix.length; i++) {
                     double temp = matrix[i][first];

@@ -17,7 +17,7 @@ public class Task15 {
         int row = Input.nextInt("Enter row number: ");
         int column = Input.nextInt("Enter column number: ");
 
-        int[][]matrix = Input.randomIntMatrixFilling(row, column, -10, 20);
+        int[][] matrix = Input.randomIntMatrixFilling(row, column, -10, 20);
         Output.displayIntMatrix(matrix);
         System.out.println(findMaxMatrixElement(matrix));
         Output.displayIntMatrix(replaceOddElementsByMax(matrix));
