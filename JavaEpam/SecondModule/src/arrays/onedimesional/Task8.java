@@ -4,37 +4,40 @@
 package arrays.onedimesional;
 
 import util.Input;
+import util.Output;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Task8 {
     public static final int INVALID_VALUE = Integer.MIN_VALUE;
-    public static final int START = 0;
+    public static final int ZERO = 0;
+    public static final int OFFSET = 1;
 
 
     public static void main(String[] args) {
         int[] arr = Input.nextIntArray();
 
-        System.out.println(makeArrWithoutMin(arr));
+        Output.displayIntArray(makeArrWithoutMin(arr));
     }
 
-    private static ArrayList<Integer> makeArrWithoutMin(int[] arr) {
+    private static int[] makeArrWithoutMin(int[] arr) {
         if (arr != null) {
-            ArrayList<Integer> arrayList = new ArrayList<>();
-            for (int i = START; i < arr.length; i++) {
+            int[] arrWithoutMin = new int[ZERO];
+            for (int i = ZERO; i < arr.length; i++) {
                 if (arr[i] != findMin(arr)) {
-                    arrayList.add(arr[i]);
+                    arrWithoutMin = add(arrWithoutMin, arr[i]);
                 }
             }
-            return arrayList;
+            return arrWithoutMin;
         }
         return null;
     }
 
     private static int findMin(int[] arr) {
         if (arr != null) {
-            int min = arr[START];
-            for (int i = START; i < arr.length; i++) {
+            int min = arr[ZERO];
+            for (int i = ZERO; i < arr.length; i++) {
                 if (arr[i] < min) {
                     min = arr[i];
                 }
@@ -42,5 +45,14 @@ public class Task8 {
             return min;
         }
         return INVALID_VALUE;
+    }
+
+    private static int[] add(int[] arr, int number) {
+        if (arr != null) {
+            arr = Arrays.copyOf(arr, arr.length + OFFSET);
+            arr[arr.length - OFFSET] = number;
+            return arr;
+        }
+        return new int[]{};
     }
 }
