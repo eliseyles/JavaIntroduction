@@ -12,7 +12,6 @@ public class Task2 {
     public static final double[] INVALID_ARRAY_RETURN_VALUE = null;
 
 
-
     public static void main(String[] args) {
         double[] arr = Input.nextDoubleArray();
         double z = Input.nextInt("Enter Z: ");

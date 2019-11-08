@@ -8,7 +8,7 @@ import util.Input;
 import java.util.ArrayList;
 
 public class Task8 {
-    public static final int INVALIDVALUE = Integer.MIN_VALUE;
+    public static final int INVALID_VALUE = Integer.MIN_VALUE;
     public static final int START = 0;
 
 
@@ -41,6 +41,6 @@ public class Task8 {
             }
             return min;
         }
-        return INVALIDVALUE;
+        return INVALID_VALUE;
     }
 }

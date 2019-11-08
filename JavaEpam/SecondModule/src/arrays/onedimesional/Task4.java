@@ -11,7 +11,7 @@ public class Task4 {
 
     public static void main(String[] args) {
         double[] arr = Input.nextDoubleArray();
-        
+
         Output.displayDoubleArray(arr);
         Output.displayDoubleArray(replaceMinMax(arr));
     }
