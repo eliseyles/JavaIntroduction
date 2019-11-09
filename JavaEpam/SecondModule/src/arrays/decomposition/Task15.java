@@ -21,7 +21,7 @@ public class Task15 {
     public static int[] findRisingNumbers(int n) {
         if (n > ZERO) {
             int[] risingNumbers = new int[ZERO];
-            for (int i = (int)Math.pow(NUMBER_SYSTEM, n - OFFSET); i < (int)Math.pow(NUMBER_SYSTEM, n); i++) {
+            for (int i = (int) Math.pow(NUMBER_SYSTEM, n - OFFSET); i < (int) Math.pow(NUMBER_SYSTEM, n); i++) {
                 if (isRising(i)) {
                     risingNumbers = add(risingNumbers, i);
                 }
@@ -35,7 +35,7 @@ public class Task15 {
         int[] digits = digitFragmetation(number);
         boolean isRising = true;
         for (int i = ZERO; i < digits.length - OFFSET; i++) {
-            if (digits[i] <= digits[i + OFFSET]){
+            if (digits[i] <= digits[i + OFFSET]) {
                 isRising = false;
                 break;
             }
