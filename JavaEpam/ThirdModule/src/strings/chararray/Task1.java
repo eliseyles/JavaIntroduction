@@ -2,13 +2,13 @@
 
 package strings.chararray;
 
-import strings.Input;
+import strings.util.Input;
 
 import java.util.Arrays;
 
 public class Task1 {
     private static final int ZERO = 0;
-    private static final int SHIFT = (int)'a' - (int)'A';
+    private static final int SHIFT = (int) 'a' - (int) 'A';
     private static final int OFFSET = 1;
     private static final char FIRST_UPCASE_LETTER = 'A';
     private static final char LAST_UPCASE_LETTER = 'Z';
@@ -23,9 +23,9 @@ public class Task1 {
         if (camelCaseString != null) {
             char[] snakeCaseString = new char[ZERO];
             for (int i = ZERO; i < camelCaseString.length; i++) {
-                if(camelCaseString[i] >= FIRST_UPCASE_LETTER  && camelCaseString[i] <= LAST_UPCASE_LETTER) {
+                if (camelCaseString[i] >= FIRST_UPCASE_LETTER && camelCaseString[i] <= LAST_UPCASE_LETTER) {
                     snakeCaseString = add(snakeCaseString, UNDERSCORE);
-                    snakeCaseString = add(snakeCaseString, (char)((int)camelCaseString[i] + SHIFT));
+                    snakeCaseString = add(snakeCaseString, (char) ((int) camelCaseString[i] + SHIFT));
                 } else {
                     snakeCaseString = add(snakeCaseString, camelCaseString[i]);
                 }
