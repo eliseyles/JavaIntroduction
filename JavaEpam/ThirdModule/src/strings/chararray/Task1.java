@@ -2,6 +2,8 @@
 
 package strings.chararray;
 
+import strings.Input;
+
 import java.util.Arrays;
 
 public class Task1 {
@@ -14,7 +16,7 @@ public class Task1 {
 
 
     public static void main(String[] args) {
-        System.out.println(makeSnakeCase(new char[]{'f','D','f'}));
+        System.out.println(makeSnakeCase(Input.nextCharArray("Enter camelCase string: ")));
     }
 
     public static char[] makeSnakeCase(char[] camelCaseString) {
