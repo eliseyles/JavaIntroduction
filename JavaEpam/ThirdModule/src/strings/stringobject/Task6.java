@@ -6,24 +6,35 @@ import strings.util.Input;
 
 public class Task6 {
     private static final int ZERO = 0;
-    private static final char LETTER = 'a';
     private static final String WRONG_VALUE = "";
-    private static final int OFFSET = 1;
     private static final int DOUBLE = 2;
+    private static final int OFFSET = 1;
 
 
     public static void main(String[] args) {
         String string = Input.nextLine("Enter string: ");
-        System.out.println(doubleEachSymbol(string));
+        System.out.println(doubleEachSymbolAlgo(string));
+        System.out.println(doubleEachSymbolFunc(string));
     }
 
-    public static String doubleEachSymbol(String string) {
+    public static String doubleEachSymbolAlgo(String string) {
         if (string != null) {
             StringBuilder stringBuilder = new StringBuilder();
             for (int i = ZERO; i < string.length(); i++) {
                 for (int k = ZERO; k < DOUBLE; k++) {
                     stringBuilder.append(string.charAt(i));
                 }
+            }
+            return stringBuilder.toString();
+        }
+        return WRONG_VALUE;
+    }
+
+    public static String doubleEachSymbolFunc(String string) {
+        if (string != null) {
+            StringBuilder stringBuilder = new StringBuilder(string);
+            for (int i = ZERO; i < string.length(); i++) {
+                stringBuilder.insert(i * DOUBLE + OFFSET,  string.charAt(i));
             }
             return stringBuilder.toString();
         }
