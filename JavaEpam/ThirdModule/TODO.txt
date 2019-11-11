@@ -1,1 +1,2 @@
 array task2
+stringobject task4
