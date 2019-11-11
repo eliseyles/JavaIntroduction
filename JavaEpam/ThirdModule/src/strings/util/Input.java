@@ -16,4 +16,10 @@ public class Input {
         }
         return str;
     }
+
+    public static String nextLine(String text) {
+        System.out.println(text);
+        String s = scanner.nextLine();
+        return s;
+    }
 }
