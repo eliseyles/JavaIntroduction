@@ -11,7 +11,6 @@ public class Task3 {
     private static final char LAST_DIGIT = '9';
 
 
-
     public static void main(String[] args) {
         char[] str = Input.nextCharArray("Enter string with digits: ");
         System.out.println(findCountDigits(str));
