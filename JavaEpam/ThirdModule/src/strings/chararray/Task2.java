@@ -9,14 +9,15 @@ import java.util.Arrays;
 public class Task2 {
     private static final int ZERO = 0;
     private static final int OFFSET = 1;
+    private static final String TO_REPLACE = "word";
+    private static final String REPLACEABLE = "letter";
+
 
 
     public static void main(String[] args) {
-//        System.out.println(makeSnakeCase(Input.nextCharArray("Enter camelCase string: ")));
-//        System.out.println(isFromReplace(new char[]{'s','s','s'}, new char[]{'s', 'a'}, 0));
-        char[] textToReplace = Input.nextCharArray("Enter word to replace: ");
-        char[] replaceableText = Input.nextCharArray("Enter replaceable word: ");
-        char[] basicText = Input.nextCharArray("Enter basic text: ");
+        char[] textToReplace = TO_REPLACE.toCharArray();
+        char[] replaceableText = REPLACEABLE.toCharArray();
+        char[] basicText = Input.nextCharArray("Enter text to replace: ");
         System.out.println(replace(basicText, textToReplace, replaceableText));
     }
 
@@ -25,7 +26,6 @@ public class Task2 {
             int i = ZERO;
             char[] replacedText = new char[ZERO];
             while (i < (basicText.length)) {
-                System.out.println(i);
                 if (isFromReplace(basicText, textToReplace, i)) {
                     replacedText = add(replacedText, replaceableText);
                     i += textToReplace.length;
@@ -33,10 +33,8 @@ public class Task2 {
                     replacedText = add(replacedText, basicText[i]);
                     i++;
                 }
-
-                System.out.println(replacedText);
             }
-            return replaceableText;
+            return replacedText;
         }
         return new char[]{};
     }
@@ -44,8 +42,8 @@ public class Task2 {
     private static boolean isFromReplace(char[] basisText, char[] textToReplace, int index) {
         if (basisText != null && textToReplace != null && index >= ZERO) {
             boolean result = true;
-            for (int i = index; i < textToReplace.length && result && i < basisText.length; i++) {
-                if (basisText[i] != textToReplace[i]) {
+            for (int i = ZERO; i < textToReplace.length && result && i + index < basisText.length; i++) {
+                if (basisText[i + index] != textToReplace[i]) {
                     result = false;
                 }
             }
