@@ -1,8 +1,11 @@
+//4. Дано действительное число R вида nnn.ddd (три цифровых разряда в дробной и целой частях). Поменять местами
+//дробную и целую части числа и вывести полученное значение числа
+
 package linearalgo;
 
 import java.util.Scanner;
 
-public class FourthTask {
+public class Task4 {
     private static Scanner scan = new Scanner(System.in);
     private static final int THOUSAND = 1000;
 

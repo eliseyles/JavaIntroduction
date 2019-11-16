@@ -1,10 +1,13 @@
+//7. Для каждого натурального числа в промежутке от m до n вывести все делители, кроме единицы и самого числа.
+//m и n вводятся с клавиатуры.
+
 package loops;
 
 import java.util.Scanner;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class SeventhTask {
+public class Task7 {
     private static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {

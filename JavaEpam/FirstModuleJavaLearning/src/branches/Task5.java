@@ -1,8 +1,10 @@
+//5. Вычислить значение функции:
+
 package branches;
 
 import java.util.Scanner;
 
-public class FifthTask {
+public class Task5 {
     private static Scanner scan = new Scanner(System.in);
     private static final int BORDER = 3;
 

@@ -1,8 +1,10 @@
+//3. Даны три точки А(х1,у1), В(х2,у2) и С(х3,у3). Определить, будут ли они расположены на одной прямой.
+
 package branches;
 
 import java.util.Scanner;
 
-public class ThirdTask {
+public class Task3 {
     private static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {

@@ -1,8 +1,11 @@
+//1. Напишите программу, где пользователь вводит любое целое положительное число. А программа суммирует
+//все числа от 1 до введенного пользователем числа.
+
 package loops;
 
 import java.util.Scanner;
 
-public class FirstTask {
+public class Task1 {
     private static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {

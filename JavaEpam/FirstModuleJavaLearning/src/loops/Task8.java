@@ -1,10 +1,11 @@
+//8. Даны два числа. Определить цифры, входящие в запись как первого так и второго числа.
+
 package loops;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class EighthTask {
+public class Task8 {
 
     private static Scanner scan = new Scanner(System.in);
     private static final int SIZE = 10;

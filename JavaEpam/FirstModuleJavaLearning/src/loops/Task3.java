@@ -1,6 +1,8 @@
+//3. Найти сумму квадратов первых ста чисел.
+
 package loops;
 
-public class ThirdTask {
+public class Task3 {
     private static final int BORDER = 100;
 
     public static void main(String[] args) {

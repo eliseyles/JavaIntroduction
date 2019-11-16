@@ -1,10 +1,11 @@
+//4. Составить программу нахождения произведения квадратов первых двухсот чисел.
+
 package loops;
 
 import java.math.BigInteger;
 
-public class FourthTask {
+public class Task4 {
     private static final int BORDER = 200;
-//
 
     public static void main(String[] args) {
         System.out.printf("production of squares of the first %d numbers = %s", BORDER, squaresProd().toString());

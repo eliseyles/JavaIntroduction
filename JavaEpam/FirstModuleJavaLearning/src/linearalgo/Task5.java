@@ -1,8 +1,12 @@
+//5. Дано натуральное число Т, которое представляет длительность прошедшего времени в секундах. Вывести
+//данное значение длительности в часах, минутах и секундах в следующей форме:
+//ННч ММмин SSc.
+
 package linearalgo;
 
 import java.util.Scanner;
 
-public class FifthTask {
+public class Task5 {
     private static Scanner scan = new Scanner(System.in);
     private static final int MINUTES = 60;
     private static final int HOURS = 3600;

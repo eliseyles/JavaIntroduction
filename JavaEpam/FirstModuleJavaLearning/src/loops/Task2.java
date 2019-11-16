@@ -1,8 +1,10 @@
+//2. Вычислить значения функции на отрезке [а,b] c шагом h:
+
 package loops;
 
 import java.util.Scanner;
 
-public class SecondTask {
+public class Task2 {
     private static Scanner scan = new Scanner(System.in);
     private static final int BORDER = 2;
 

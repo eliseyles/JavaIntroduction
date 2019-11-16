@@ -1,2 +1,3 @@
-array task2
 stringobject task4
+
+regex task1 task2

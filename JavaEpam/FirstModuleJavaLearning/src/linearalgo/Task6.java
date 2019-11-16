@@ -1,8 +1,11 @@
+//6. Для данной области составить линейную программу, которая печатает true, если точка с координатами (х, у)
+//принадлежит закрашенной области, и false — в противном случае:
+
 package linearalgo;
 
 import java.util.Scanner;
 
-public class SixthTask {
+public class Task6 {
     private static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {

@@ -1,8 +1,11 @@
+//1. Даны два угла треугольника (в градусах). Определить, существует ли такой треугольник, и если да, то будет ли
+//он прямоугольным.
+
 package branches;
 
 import java.util.Scanner;
 
-public class FirstTask {
+public class Task1 {
     private static Scanner scan = new Scanner(System.in);
     private static final int ZERO = 0;
     private static final int RIGHT_ANGLE = 90;

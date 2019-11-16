@@ -1,8 +1,13 @@
+//5. Даны числовой ряд и некоторое число е. Найти сумму тех членов ряда, модуль которых больше или равен
+//заданному е. Общий член ряда имеет вид:
+//n n n
+//a
+
 package loops;
 
 import java.util.Scanner;
 
-public class FifthTask {
+public class Task5 {
     private static Scanner scan = new Scanner(System.in);
     private static final int START = 0;
 
@@ -23,6 +28,6 @@ public class FifthTask {
     }
 
     private static double elementValue(int n) {
-        return (1/Math.pow(2, n))+(1/Math.pow(3, n));
+        return (1 / Math.pow(2, n)) + (1 / Math.pow(3, n));
     }
 }

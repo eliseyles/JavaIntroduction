@@ -1,10 +1,10 @@
+//2. Найти max{min(a, b), min(c, d)}.
+
 package branches;
 
 import java.util.Scanner;
 
-//TODO add eps to comparison double
-
-public class SecondTask {
+public class Task2 {
     private static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class SecondTask {
 
     private static int min(int a, int b) {
         if (a < b) {
-        return a;
+            return a;
         } else {
             return b;
         }

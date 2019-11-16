@@ -1,8 +1,11 @@
+//4. Заданы размеры А, В прямоугольного отверстия и размеры х, у, z кирпича. Определить, пройдет ли кирпич через
+//отверстие.
+
 package branches;
 
 import java.util.Scanner;
 
-public class FourthTask {
+public class Task4 {
     private static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
