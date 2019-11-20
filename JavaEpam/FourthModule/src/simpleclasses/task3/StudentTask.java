@@ -3,7 +3,7 @@
 
 package simpleclasses.task3;
 
-public class TestStudent {
+public class StudentTask {
     public static final String[] NAMES = new String[]{"dsd", "dsdsd", "hasukf", "fjdk", "yreui", "fdleq",
             "fhdj", "as", "awe", "irej"};
     public static final String[] GROUPS = new String[]{"1092", "439", "32", "643894", "6422",

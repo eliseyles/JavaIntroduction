@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3036373-e495-4acf-8d63-9f5ee76c94a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task4/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task4/Train.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SecondModule/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondModule/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,22 +25,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="7" />
+          <entry key="java" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1460" />
+          <entry key="java" value="2811" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1460" />
+          <entry key="JAVA" value="2811" />
         </counts>
       </usages-collector>
     </session>
@@ -72,9 +73,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
+                <element signature="e#0#1989#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -82,20 +84,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/TestStudent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/Train.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="646">
+              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#368#369#0" expanded="true" />
                 <element signature="e#402#403#0" expanded="true" />
                 <element signature="e#456#457#0" expanded="true" />
@@ -106,6 +100,20 @@
                 <element signature="e#644#645#0" expanded="true" />
                 <element signature="e#674#675#0" expanded="true" />
                 <element signature="e#701#702#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/TestTrain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1305">
+              <caret line="96" column="123" selection-start-line="96" selection-start-column="123" selection-end-line="96" selection-end-column="123" />
+              <folding>
+                <element signature="e#0#433#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#findTrainByNumber#0;class#TestTrain#0" />
               </folding>
             </state>
           </provider>
@@ -129,9 +137,10 @@
         <option value="$PROJECT_DIR$/src/simpleclasses/Test1.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/Student.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/Test2.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task3/TestStudent.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task3/Student.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task3/TestStudent.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task4/Train.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task4/TestTrain.java" />
       </list>
     </option>
   </component>
@@ -187,7 +196,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574247631840" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574284907021" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -201,9 +210,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="TestStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simpleclasses.task3.TestStudent" />
+  <component name="RunManager" selected="Application.TrainTask">
+    <configuration name="StudentTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simpleclasses.task3.StudentTask" />
       <module name="FourthModule" />
       <extension name="coverage">
         <pattern>
@@ -215,9 +224,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrainTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simpleclasses.task4.TrainTask" />
+      <module name="FourthModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simpleclasses.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.StudentTask" />
+      <item itemvalue="Application.TrainTask" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestStudent" />
+        <item itemvalue="Application.TrainTask" />
+        <item itemvalue="Application.StudentTask" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +265,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -248,7 +275,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14566284" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -305,9 +332,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
+            <element signature="e#0#1989#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -316,15 +344,19 @@
     <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/TestStudent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="25" />
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#1172#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/Train.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="646">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#368#369#0" expanded="true" />
             <element signature="e#402#403#0" expanded="true" />
             <element signature="e#456#457#0" expanded="true" />
@@ -335,6 +367,18 @@
             <element signature="e#644#645#0" expanded="true" />
             <element signature="e#674#675#0" expanded="true" />
             <element signature="e#701#702#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/TestTrain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="96" column="123" selection-start-line="96" selection-start-column="123" selection-end-line="96" selection-end-column="123" />
+          <folding>
+            <element signature="e#0#433#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#findTrainByNumber#0;class#TestTrain#0" />
           </folding>
         </state>
       </provider>
