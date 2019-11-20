@@ -56,5 +56,5 @@ public class Test2 {
         return Objects.hash(firstVariable, secondVariable);
     }
 
-    HashMap
+
 }

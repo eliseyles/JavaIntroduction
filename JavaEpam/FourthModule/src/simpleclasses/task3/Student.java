@@ -2,7 +2,7 @@
 //из пяти элементов). Создайте массив из десяти элементов такого типа. Добавьте возможность вывода фамилий и
 //номеров групп студентов, имеющих оценки, равные только 9 или 10.
 
-package simpleclasses;
+package simpleclasses.task3;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -40,7 +40,7 @@ class Student {
     public boolean isProgressive() {
         boolean isProgressive = true;
         for (int i = 0; i < progress.length && isProgressive; i++) {
-            if (progress[i] != HIGH_MARK || progress[i] != HIGHEST_MARK) {
+            if (progress[i] < HIGH_MARK || progress[i] > HIGHEST_MARK) {
                 isProgressive = false;
             }
         }
@@ -51,10 +51,6 @@ class Student {
     public String toString() {
         return
                 name + " " + group;
-    }
-
-    public static void main(String[] args) {
-        Student[] list = new Student[10]
     }
 
     @Override

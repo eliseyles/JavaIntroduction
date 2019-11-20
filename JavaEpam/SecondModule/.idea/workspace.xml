@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="801436fa-5277-4e75-9657-357d52c95a85" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../FirstModuleJavaLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstModuleJavaLearning/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SecondModule/arrays/sorts/Task2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SecondModule/arrays/sorts/Task2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/multidimesional/Task16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/multidimesional/Task16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/sorts/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/sorts/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/sorts/Task8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/sorts/Task8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThirdModule/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThirdModule/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FourthModule/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthModule/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FourthModule/src/simpleclasses/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthModule/src/simpleclasses/task3/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FourthModule/src/simpleclasses/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthModule/src/simpleclasses/Test2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -116,8 +111,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/arrays/sorts/Task2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state relative-caret-position="289">
+              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#shift#0;class#Task2#0" />
@@ -214,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -376,7 +371,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17927383" />
@@ -803,8 +798,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/sorts/Task2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        <state relative-caret-position="289">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#shift#0;class#Task2#0" />
