@@ -19,9 +19,6 @@
 
 package arrays.sorts;
 
-import util.Input;
-import util.Output;
-
 public class Task8 {
     public static final int ZERO_INDEX = 0;
     public static final int OFFSET = 1;
@@ -30,19 +27,9 @@ public class Task8 {
 
 
     public static void main(String[] args) {
-//        int[] arr = Input.randomIntArrayFilling(10, -10, 20);
-//        Output.displayIntArray(arr);
         System.out.println(LCMTwoNumbers(15, 25));
-//        Output.displayIntArray(arr);
-
     }
 
-//    private static int LCM(int[][] fractions) {
-//        if (fractions != null) {
-//            int mcd = MCD(fractions[0], secondNumber);
-//            return (firstNumber * secondNumber) / mcd;
-//        }
-//    }
 
     private static int LCMTwoNumbers(int firstNumber, int secondNumber) {
         int mcd = MCD(firstNumber, secondNumber);
