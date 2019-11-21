@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3036373-e495-4acf-8d63-9f5ee76c94a5" name="Default Changelist" comment="" />
+    <list default="true" id="d3036373-e495-4acf-8d63-9f5ee76c94a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/FourthModule/simpleclasses/task4/DepotLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FourthModule/simpleclasses/task4/DepotLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FourthModule/simpleclasses/task4/TrainView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task6/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task6/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondModule/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondModule/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,23 +27,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="59" />
+          <entry key="java" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="59" />
+          <entry key="JAVA" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="28" />
-          <entry key="java" value="5307" />
+          <entry key="java" value="6077" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5307" />
+          <entry key="JAVA" value="6077" />
           <entry key="PLAIN_TEXT" value="28" />
         </counts>
       </usages-collector>
@@ -47,109 +52,54 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/Train.java">
+        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task6/Time.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+            <state relative-caret-position="51">
+              <caret line="3" column="43" lean-forward="true" selection-end-line="3" selection-end-column="43" />
               <folding>
-                <element signature="e#0#2151#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="method#equals#0;class#Train#0" />
-                <element signature="method#hashCode#0;class#Train#0" />
-                <element signature="method#toString#0;class#Train#0" />
+                <element signature="e#0#2115#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#1168#1169#0" expanded="true" />
+                <element signature="e#1197#1198#0" expanded="true" />
+                <element signature="e#1437#1438#0" expanded="true" />
+                <element signature="e#1466#1467#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/Depot.java">
+        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task6/TimeView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+            <state relative-caret-position="51">
+              <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
               <folding>
-                <element signature="e#0#1322#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#0#698#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/DepotLogic.java">
+        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task6/TestTime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+            <state relative-caret-position="51">
+              <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
               <folding>
-                <element signature="e#0#3107#0" expanded="true" />
-                <element signature="method#sortByNumber#0;class#DepotLogic#0" />
-                <element signature="method#compareByNumber#0;class#DepotLogic#0" />
-                <element signature="method#sortByDestination#0;class#DepotLogic#0" />
-                <element signature="method#compareByDestination#0;class#DepotLogic#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/DepotView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#723#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/TrainTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#1629#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#931#938#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/TrainView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#794#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task5/DecimalCounter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#1151#0" expanded="true" />
+                <element signature="e#0#580#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task5/TestDecimalCounter.java">
+        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task6/TimeLogic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+            <state relative-caret-position="62">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <element signature="e#0#1765#0" expanded="true" />
+                <element signature="e#0#2008#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,7 +128,6 @@
         <option value="$PROJECT_DIR$/src/simpleclasses/task4/TestTrain.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task5.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task5/DecimalCounter.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task6/Time.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task4/TrainLogic.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task5/TestDecimalCounter.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task3/Student.java" />
@@ -194,6 +143,10 @@
         <option value="$PROJECT_DIR$/src/simpleclasses/task4/DepotView.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task4/TrainTask.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task4/TrainView.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task6/Time.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task6/TimeView.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task6/TestTime.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task6/TimeLogic.java" />
       </list>
     </option>
   </component>
@@ -232,20 +185,6 @@
               <item name="FourthModule" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="simpleclasses" type="462c0819:PsiDirectoryNode" />
-              <item name="task4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FourthModule" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FourthModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="simpleclasses" type="462c0819:PsiDirectoryNode" />
-              <item name="task5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FourthModule" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FourthModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="simpleclasses" type="462c0819:PsiDirectoryNode" />
               <item name="task6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -256,7 +195,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574361545411" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574368854382" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -270,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestTime">
     <configuration name="StudentTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="simpleclasses.task3.StudentTask" />
       <module name="FourthModule" />
@@ -297,6 +236,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simpleclasses.task6.TestTime" />
+      <module name="FourthModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simpleclasses.task6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TrainTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="simpleclasses.task4.TrainTask" />
       <module name="FourthModule" />
@@ -314,9 +266,11 @@
       <item itemvalue="Application.StudentTask" />
       <item itemvalue="Application.TrainTask" />
       <item itemvalue="Application.TestDecimalCounter" />
+      <item itemvalue="Application.TestTime" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestTime" />
         <item itemvalue="Application.TrainTask" />
         <item itemvalue="Application.StudentTask" />
         <item itemvalue="Application.TestDecimalCounter" />
@@ -340,7 +294,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -350,7 +304,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.10310966" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.36988544" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -416,13 +370,6 @@
             <element signature="e#851#852#0" expanded="true" />
             <element signature="e#901#902#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task6/Time.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="74" column="14" selection-end-line="80" />
         </state>
       </provider>
     </entry>
@@ -611,6 +558,52 @@
           <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
           <folding>
             <element signature="e#0#1765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task6/Time.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="43" lean-forward="true" selection-end-line="3" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#2115#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task6/TimeView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task6/TestTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task6/TimeLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#2008#0" expanded="true" />
           </folding>
         </state>
       </provider>
