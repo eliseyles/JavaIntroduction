@@ -16,11 +16,7 @@ public class StudentTask {
         for (int i = 0; i < students.length; i++) {
             students[i] = new Student(NAMES[i], GROUPS[i], MARKS[i]);
         }
-
-        for (int i = 0; i < students.length; i++) {
-            if (StudentLogic.isProgressive(students[i])) {
-                StudentView.printStudent(students[i]);
-            }
-        }
+        StudentView.printStudents(students);
+        StudentView.printExcelentStudents(students);
     }
 }
