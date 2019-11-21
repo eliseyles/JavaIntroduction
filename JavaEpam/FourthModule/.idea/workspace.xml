@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3036373-e495-4acf-8d63-9f5ee76c94a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task3/StudentTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task3/StudentTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task3/StudentView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task3/StudentView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/simpleclasses/task4/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task4/Train.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task4/TrainLogic.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/simpleclasses/task4/TrainTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task4/TrainTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task6/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task6/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task4/TrainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task4/TrainView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SecondModule/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondModule/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,23 +28,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="30" />
+          <entry key="java" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="30" />
+          <entry key="JAVA" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="28" />
-          <entry key="java" value="4774" />
+          <entry key="java" value="5269" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4774" />
+          <entry key="JAVA" value="5269" />
           <entry key="PLAIN_TEXT" value="28" />
         </counts>
       </usages-collector>
@@ -53,90 +52,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/Group.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-              <folding>
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/GroupLogic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="e#218#227#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="378" column="15" selection-start-line="378" selection-start-column="15" selection-end-line="378" selection-end-column="15" />
-              <folding>
-                <element signature="e#13713#13714#0" expanded="true" />
-                <element signature="e#13768#13769#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/StudentTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task6/Time.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="74" column="14" selection-end-line="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/TrainTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="27" column="10" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/StudentView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/GroupView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="356">
+              <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#1358#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#931#938#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,16 +92,19 @@
         <option value="$PROJECT_DIR$/src/simpleclasses/task5/TestDecimalCounter.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task3/Student.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task3/StudentLogic.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task4/Train.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task4/TrainLogic.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task4/TrainView.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task3/Group.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task3/StudentView.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task3/GroupView.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task6/Time.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task4/TrainTask.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task3/StudentTask.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task3/GroupLogic.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task3/StudentView.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task4/Train.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task4/Depot.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task4/TrainView.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task4/DepotView.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task4/TrainLogic.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task4/DepotLogic.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task4/TrainTask.java" />
       </list>
     </option>
   </component>
@@ -215,13 +143,6 @@
               <item name="FourthModule" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="simpleclasses" type="462c0819:PsiDirectoryNode" />
-              <item name="task3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FourthModule" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FourthModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="simpleclasses" type="462c0819:PsiDirectoryNode" />
               <item name="task4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -239,7 +160,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574358415351" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574361166406" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -300,9 +221,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TrainTask" />
         <item itemvalue="Application.StudentTask" />
         <item itemvalue="Application.TestDecimalCounter" />
-        <item itemvalue="Application.TrainTask" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +244,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -332,8 +253,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.43862522" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.198036" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -417,17 +338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/Train.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1574351811015" expanded="true" signature="1779:1980" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/simpleclasses/Test2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -437,20 +347,6 @@
             <element signature="e#851#852#0" expanded="true" />
             <element signature="e#901#902#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/TrainLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="30" column="57" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/TrainView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -482,13 +378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/StudentView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/simpleclasses/task6/Time.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -496,10 +385,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/TrainTask.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="27" column="10" selection-end-line="35" />
+        <state relative-caret-position="20">
+          <caret line="378" column="15" selection-start-line="378" selection-start-column="15" selection-end-line="378" selection-end-column="15" />
+          <folding>
+            <element signature="e#13713#13714#0" expanded="true" />
+            <element signature="e#13768#13769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/StudentTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/StudentView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -519,30 +426,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/StudentTask.java">
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/GroupLogic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="378" column="15" selection-start-line="378" selection-start-column="15" selection-end-line="378" selection-end-column="15" />
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
-            <element signature="e#13713#13714#0" expanded="true" />
-            <element signature="e#13768#13769#0" expanded="true" />
+            <element signature="e#218#227#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/GroupLogic.java">
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/Depot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="510">
+          <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
           <folding>
-            <element signature="e#218#227#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/DepotLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding>
+            <element signature="method#sortByNumber#0;class#DepotLogic#0" />
+            <element signature="method#compareByNumber#0;class#DepotLogic#0" />
+            <element signature="method#findTrainByNumber#0;class#DepotLogic#0" />
+            <element signature="method#sortByDestination#0;class#DepotLogic#0" />
+            <element signature="method#compareByDestination#0;class#DepotLogic#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/DepotView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/Train.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#equals#0;class#Train#0" />
+            <element signature="method#hashCode#0;class#Train#0" />
+            <element signature="method#toString#0;class#Train#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/TrainLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/TrainView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/TrainTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#1358#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#931#938#0" expanded="true" />
           </folding>
         </state>
       </provider>
