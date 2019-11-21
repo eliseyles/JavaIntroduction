@@ -18,8 +18,8 @@ public class StudentTask {
         }
 
         for (int i = 0; i < students.length; i++) {
-            if (students[i].isProgressive()) {
-                System.out.println(students[i].toString());
+            if (StudentLogic.isProgressive(students[i])) {
+                StudentView.printStudent(students[i]);
             }
         }
     }

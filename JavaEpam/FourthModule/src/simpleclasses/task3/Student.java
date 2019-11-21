@@ -8,9 +8,6 @@ import java.util.Objects;
 
 class Student {
 
-    private static final int HIGH_MARK = 9;
-    private static final int HIGHEST_MARK = 10;
-
     private String name;
     private String group;
     private int[] progress;
@@ -36,22 +33,6 @@ class Student {
         return progress;
     }
 
-    public boolean isProgressive() {
-        boolean isProgressive = true;
-        for (int i = 0; i < progress.length && isProgressive; i++) {
-            if (progress[i] < HIGH_MARK || progress[i] > HIGHEST_MARK) {
-                isProgressive = false;
-            }
-        }
-        return isProgressive;
-    }
-
-    @Override
-    public String toString() {
-        return
-                name + " " + group;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -67,6 +48,15 @@ class Student {
         int result = Objects.hash(name, group);
         result = 31 * result + Arrays.hashCode(progress);
         return result;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", group='" + group + '\'' +
+                ", progress=" + Arrays.toString(progress) +
+                '}';
     }
 }
 

@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="801436fa-5277-4e75-9657-357d52c95a85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../FourthModule/src/simpleclasses/task5/DecimalCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FourthModule/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthModule/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FourthModule/src/simpleclasses/task3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthModule/src/simpleclasses/task3/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FourthModule/src/simpleclasses/task3/StudentTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthModule/src/simpleclasses/task3/StudentTask.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -293,7 +293,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574337161153" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574348338221" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
