@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3036373-e495-4acf-8d63-9f5ee76c94a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task4/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task4/Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/simpleclasses/task5/DecimalCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SecondModule/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondModule/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,22 +26,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="8" />
+          <entry key="java" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2811" />
+          <entry key="dummy" value="28" />
+          <entry key="java" value="3303" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2811" />
+          <entry key="JAVA" value="3303" />
+          <entry key="PLAIN_TEXT" value="28" />
         </counts>
       </usages-collector>
     </session>
@@ -106,14 +109,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/TestTrain.java">
+        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task5/TestDecimalCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="96" column="123" selection-start-line="96" selection-start-column="123" selection-end-line="96" selection-end-column="123" />
+            <state relative-caret-position="190">
+              <caret line="12" column="67" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task5/DecimalCounter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
               <folding>
-                <element signature="e#0#433#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="method#findTrainByNumber#0;class#TestTrain#0" />
+                <element signature="e#0#472#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#695#696#0" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#1035#1036#0" expanded="true" />
+                <element signature="e#1061#1062#0" expanded="true" />
+                <element signature="e#1111#1112#0" expanded="true" />
+                <element signature="e#1151#1152#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,6 +144,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Singleton" />
         <option value="Class" />
       </list>
     </option>
@@ -141,6 +162,10 @@
         <option value="$PROJECT_DIR$/src/simpleclasses/task3/TestStudent.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task4/Train.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task4/TestTrain.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task4/TrainTask.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task5.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task5/DecimalCounter.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task5/TestDecimalCounter.java" />
       </list>
     </option>
   </component>
@@ -188,6 +213,13 @@
               <item name="simpleclasses" type="462c0819:PsiDirectoryNode" />
               <item name="task4" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FourthModule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FourthModule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleclasses" type="462c0819:PsiDirectoryNode" />
+              <item name="task5" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -196,7 +228,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574284907021" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574337161284" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -210,13 +242,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TrainTask">
+  <component name="RunManager" selected="Application.TestDecimalCounter">
     <configuration name="StudentTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="simpleclasses.task3.StudentTask" />
       <module name="FourthModule" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="simpleclasses.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDecimalCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simpleclasses.task5.TestDecimalCounter" />
+      <module name="FourthModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simpleclasses.task5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,9 +285,11 @@
     <list>
       <item itemvalue="Application.StudentTask" />
       <item itemvalue="Application.TrainTask" />
+      <item itemvalue="Application.TestDecimalCounter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDecimalCounter" />
         <item itemvalue="Application.TrainTask" />
         <item itemvalue="Application.StudentTask" />
       </list>
@@ -275,7 +322,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14566284" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16530278" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,6 +377,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/StudentTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#1172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -341,12 +398,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/TestStudent.java">
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task5/gdjfklgf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/TrainTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="96" column="57" selection-start-line="96" selection-start-column="57" selection-end-line="96" selection-end-column="57" />
           <folding>
-            <element signature="e#0#1172#0" expanded="true" />
+            <element signature="e#0#433#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#findTrainByNumber#0;class#TestTrain#0" />
           </folding>
         </state>
       </provider>
@@ -371,15 +444,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/TestTrain.java">
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task5/DecimalCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="96" column="123" selection-start-line="96" selection-start-column="123" selection-end-line="96" selection-end-column="123" />
+        <state relative-caret-position="289">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
           <folding>
-            <element signature="e#0#433#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="method#findTrainByNumber#0;class#TestTrain#0" />
+            <element signature="e#0#472#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task5/TestDecimalCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="67" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="67" />
         </state>
       </provider>
     </entry>
