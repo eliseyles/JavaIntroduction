@@ -63,9 +63,18 @@ public class Train {
 
     @Override
     public String toString() {
-        return "Train number " + number +
-                " destination " + destination +
-                " time " + time[0] + ":" + time[1];
-
+        return "Train{" +
+                "destination='" + destination + '\'' +
+                ", number=" + number +
+                ", time=" + Arrays.toString(time) +
+                '}';
     }
+
+//    @Override
+//    public String toString() {
+//        return "Train number " + number +
+//                " destination " + destination +
+//                " time " + time[0] + ":" + time[1];
+//
+//    }
 }
