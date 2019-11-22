@@ -31,14 +31,11 @@ public class Task1 {
         if (firstArr != null && secondArr != null && position <= firstArr.length) {
             int tempSize = firstArr.length;
             firstArr = Arrays.copyOf(firstArr, firstArr.length + secondArr.length);
-            for (int i = position + secondArr.length; i < tempSize; i++) {
-                firstArr[secondArr.length + i] = firstArr[i];
-                System.out.println(tempSize);
+
+            for (int i = firstArr.length - 1; i >= position + secondArr.length; i--) {
+                firstArr[i] = firstArr[i - secondArr.length];
             }
             for (int i = START; i < secondArr.length; i++) {
-                if (position + i < tempSize) {
-                    firstArr[i + secondArr.length + position] = firstArr[position + i];
-                }
                 firstArr[position + i] = secondArr[i];
             }
             return firstArr;
