@@ -5,7 +5,7 @@
 
 package simpleclasses.task6;
 
-public class TestTime {
+public class TestRunner {
     public static void main(String[] args) {
         Time time = new Time();
         TimeView.printTime(time);

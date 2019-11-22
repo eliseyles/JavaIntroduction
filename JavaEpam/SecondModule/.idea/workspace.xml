@@ -6,12 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="801436fa-5277-4e75-9657-357d52c95a85" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../FourthModule/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthModule/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FourthModule/out/production/FourthModule/simpleclasses/task4/Depot.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthModule/out/production/FourthModule/simpleclasses/task4/Depot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FourthModule/out/production/FourthModule/simpleclasses/task4/DepotLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthModule/out/production/FourthModule/simpleclasses/task4/DepotLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FourthModule/out/production/FourthModule/simpleclasses/task4/DepotView.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthModule/out/production/FourthModule/simpleclasses/task4/DepotView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FourthModule/out/production/FourthModule/simpleclasses/task4/TrainTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthModule/out/production/FourthModule/simpleclasses/task4/TrainTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FourthModule/out/production/FourthModule/simpleclasses/task4/TrainView.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthModule/out/production/FourthModule/simpleclasses/task4/TrainView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FourthModule/src/simpleclasses/task6/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthModule/src/simpleclasses/task6/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FourthModule/src/simpleclasses/task4/TrainTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FourthModule/src/simpleclasses/task5/TestDecimalCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FourthModule/src/simpleclasses/task6/TestTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthModule/src/simpleclasses/task6/TestRunner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -306,7 +303,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574367869838" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574410424638" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">

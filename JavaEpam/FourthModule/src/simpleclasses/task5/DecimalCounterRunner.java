@@ -5,7 +5,7 @@
 
 package simpleclasses.task5;
 
-public class TestDecimalCounter {
+public class DecimalCounterRunner {
     public static void main(String[] args) {
         System.out.println("Default initializing");
         DecimalCounter decimalCounter = new DecimalCounter();
