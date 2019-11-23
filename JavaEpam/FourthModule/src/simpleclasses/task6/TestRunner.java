@@ -8,8 +8,9 @@ package simpleclasses.task6;
 public class TestRunner {
     public static void main(String[] args) {
         Time time = new Time();
-        TimeView.printTime(time);
-        TimeView.printTime(TimeLogic.changeTime(time, new Time(1, 55, 5), true));
-        TimeView.printTime(TimeLogic.changeTime(time, new Time(2, 45, 12), false));
+        TimeView timeView = new TimeView();
+        timeView.printTime(time);
+        timeView.printTime(new TimeLogic().changeTime(time, new Time(1, 55, 5), true));
+        timeView.printTime(new TimeLogic().changeTime(time, new Time(2, 45, 12), false));
     }
 }

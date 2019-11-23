@@ -13,37 +13,37 @@ import java.util.Objects;
 public class Customer {
     private static int customerCount = 1;
     private int id;
-    private Person person;
+    private String surname;
+    private String name;
+    private String patronymic;
+    private String address;
     private String creditCardId;
     private String bankAccountId;
 
 
     public Customer() {
         id = customerCount;
-        person = new Person();
+        surname = "";
+        name = "";
+        patronymic = "";
+        address = "";
         creditCardId = "";
         bankAccountId = "";
         customerCount++;
     }
 
-    public Customer(Person person, String creditCardId, String bankAccountId) {
-        this.id = customerCount;
-        this.person = person;
+    public Customer(int id, String surname, String name, String patronymic, String address, String creditCardId, String bankAccountId) {
+        this.id = id;
+        this.surname = surname;
+        this.name = name;
+        this.patronymic = patronymic;
+        this.address = address;
         this.creditCardId = creditCardId;
         this.bankAccountId = bankAccountId;
-        customerCount++;
     }
 
     public int getId() {
         return id;
-    }
-
-    public Person getPerson() {
-        return person;
-    }
-
-    public void setPerson(Person person) {
-        this.person = person;
     }
 
     public String getCreditCardId() {
@@ -62,27 +62,65 @@ public class Customer {
         this.bankAccountId = bankAccountId;
     }
 
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPatronymic() {
+        return patronymic;
+    }
+
+    public void setPatronymic(String patronymic) {
+        this.patronymic = patronymic;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Customer customer = (Customer) o;
         return id == customer.id &&
-                Objects.equals(person, customer.person) &&
+                Objects.equals(surname, customer.surname) &&
+                Objects.equals(name, customer.name) &&
+                Objects.equals(patronymic, customer.patronymic) &&
+                Objects.equals(address, customer.address) &&
                 Objects.equals(creditCardId, customer.creditCardId) &&
                 Objects.equals(bankAccountId, customer.bankAccountId);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, person, creditCardId, bankAccountId);
+        return Objects.hash(id, surname, name, patronymic, address, creditCardId, bankAccountId);
     }
 
     @Override
     public String toString() {
         return "Customer{" +
                 "id=" + id +
-                ", person=" + person +
+                ", surname='" + surname + '\'' +
+                ", name='" + name + '\'' +
+                ", patronymic='" + patronymic + '\'' +
+                ", address='" + address + '\'' +
                 ", creditCardId='" + creditCardId + '\'' +
                 ", bankAccountId='" + bankAccountId + '\'' +
                 '}';

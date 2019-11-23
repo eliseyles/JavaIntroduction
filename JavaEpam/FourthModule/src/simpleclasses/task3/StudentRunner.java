@@ -21,6 +21,6 @@ public class StudentRunner {
 
         Group group = new Group(students);
 
-        GroupView.printGroup(new GroupLogic().getExcelentStudents(group));
+        new GroupView().printGroup(new GroupLogic().getExcelentStudents(group));
     }
 }

@@ -9,11 +9,11 @@
 package simpleclasses.task8;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.List;
 import java.util.Objects;
 
 public class CustomerBase {
-    private ArrayList<Customer> customers;
+    private List<Customer> customers;
 
     public CustomerBase() {
         customers = new ArrayList<Customer>();
@@ -23,14 +23,35 @@ public class CustomerBase {
         this.customers = customers;
     }
 
-    public ArrayList<Customer> getCustomers() {
-        return customers;
+    public List<Customer> getCustomers() {
+        return new ArrayList<>(customers);
     }
 
     public void add(Customer customer) {
         if (customer != null) {
             customers.add(customer);
         }
+    }
+
+    public int size() {
+        return customers.size();
+    }
+
+    public Customer getCustomer(int index) {
+        if(isValidIndex(index)) {
+            return customers.get(index);
+        }
+        return null;
+    }
+
+    public void setCustomer(int index, Customer customer) {
+        if (isValidIndex(index) && customer != null) {
+            customers.set(index, customer);
+        }
+    }
+
+    private boolean isValidIndex(int index) {
+        return index >= 0 && index < size();
     }
 
     @Override

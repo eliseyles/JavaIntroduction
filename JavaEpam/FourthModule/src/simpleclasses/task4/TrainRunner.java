@@ -13,25 +13,26 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class TrainRunner {
-    public static final String[] DESTINATION = new String[]{"Moscow", "Brest", "Minsk", "Erevan", "Bobruisk"};
-    public static final int[][] TIME = new int[][]{{11, 12}, {9, 0}, {9, 15}, {16, 30}, {23, 22}, {20, 40}};
-    public static final int SIZE = 5;
+    public final String[] DESTINATION = new String[]{"Moscow", "Brest", "Minsk", "Erevan", "Bobruisk"};
+    public final int[][] TIME = new int[][]{{11, 12}, {9, 0}, {9, 15}, {16, 30}, {23, 22}, {20, 40}};
+    public final int SIZE = 5;
 
 
-    public static void main(String[] args) {
+    public void main(String[] args) {
         ArrayList<Train> trains = new ArrayList<Train>();
         for (int i = 0; i < SIZE; i++) {
             trains.add(new Train(DESTINATION[new Random().nextInt(DESTINATION.length)],
                     new Random().nextInt(1000), TIME[new Random().nextInt(TIME.length)]));
         }
         Depot depot = new Depot(trains);
-        DepotView.printDepot(depot);
-        DepotView.printDepot(DepotLogic.sortByNumber(depot));
+        DepotView depotView = new DepotView();
+        depotView.printDepot(depot);
+        depotView.printDepot(new DepotLogic().sortByNumber(depot));
 
         int number = new Scanner(System.in).nextInt();
-        DepotView.printDepot(DepotLogic.findTrainsByNumber(depot, number));
+        depotView.printDepot(new DepotLogic().findTrainsByNumber(depot, number));
 
-        DepotView.printDepot(DepotLogic.sortByDestination(depot));
+        depotView.printDepot(new DepotLogic().sortByDestination(depot));
 
     }
 

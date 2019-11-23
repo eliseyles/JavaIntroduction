@@ -7,7 +7,8 @@
 package simpleclasses.task4;
 
 public class DepotLogic {
-    public static Depot sortByNumber(Depot depot) {
+
+    public Depot sortByNumber(Depot depot) {
         if (depot != null) {
             for (int i = 0; i < depot.size(); i++) {
                 for (int j = 0; j < depot.size(); j++) {
@@ -23,14 +24,14 @@ public class DepotLogic {
         return new Depot();
     }
 
-    private static boolean compareByNumber(Train firstTrain, Train secondTrain) {
+    private boolean compareByNumber(Train firstTrain, Train secondTrain) {
         if (firstTrain != null && secondTrain != null) {
             return firstTrain.getNumber() < secondTrain.getNumber();
         }
         return false;
     }
 
-    public static Depot findTrainsByNumber(Depot depot, int number) {
+    public Depot findTrainsByNumber(Depot depot, int number) {
         Depot sameNumberTrainDepot = new Depot();
         for (Train train : depot.getTrains()) {
             if (number == train.getNumber()) {
@@ -40,7 +41,7 @@ public class DepotLogic {
         return sameNumberTrainDepot;
     }
 
-    public static Depot sortByDestination(Depot depot) {
+    public Depot sortByDestination(Depot depot) {
         if (depot != null) {
             for (int i = 0; i < depot.size(); i++) {
                 for (int j = 0; j < depot.size(); j++) {
@@ -56,7 +57,7 @@ public class DepotLogic {
         return new Depot();
     }
 
-    private static boolean compareByDestination(Train firstTrain, Train secondTrain) {
+    private boolean compareByDestination(Train firstTrain, Train secondTrain) {
         if (firstTrain != null && secondTrain != null) {
             if (firstTrain.getDestination().equals(secondTrain.getDestination())) {
                 if (firstTrain.getTime()[0] != secondTrain.getTime()[0]) {

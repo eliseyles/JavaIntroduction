@@ -4,7 +4,7 @@
 package simpleclasses.task7;
 
 public class PointLogic {
-    public static double findLength(Point firstPoint, Point secondPoint) {
+    public double findLength(Point firstPoint, Point secondPoint) {
         return Math.sqrt(Math.pow(firstPoint.getX() - secondPoint.getX(), 2)
                 + Math.pow(firstPoint.getY() - secondPoint.getY(), 2));
     }

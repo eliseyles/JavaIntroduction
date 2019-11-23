@@ -7,10 +7,11 @@ package simpleclasses.task3;
 import java.util.ArrayList;
 
 public class GroupLogic {
+
     public Group getExcelentStudents(Group group) {
         Group excelentStudents = new Group();
         for (int i = 0; i < group.size(); i++) {
-            if (StudentLogic.isProgressive(group.getStudent(i))) {
+            if (new StudentLogic().isProgressive(group.getStudent(i))) {
                 excelentStudents.add(group.getStudent(i));
             }
         }

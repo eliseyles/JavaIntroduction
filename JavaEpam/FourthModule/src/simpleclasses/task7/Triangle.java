@@ -33,7 +33,7 @@ public class Triangle {
     }
 
     private void setLengthAB() {
-        this.lengthAB = PointLogic.findLength(a, b);
+        this.lengthAB = new PointLogic().findLength(a, b);
     }
 
     public double getLengthBC() {
@@ -41,7 +41,7 @@ public class Triangle {
     }
 
     private void setLengthBC() {
-        this.lengthBC = PointLogic.findLength(c, b);
+        this.lengthBC = new PointLogic().findLength(c, b);
     }
 
     public double getLengthCA() {
@@ -49,7 +49,7 @@ public class Triangle {
     }
 
     private void setLengthCA() {
-        this.lengthCA = PointLogic.findLength(a, c);
+        this.lengthCA = new PointLogic().findLength(a, c);
     }
 
     private void setSides() {

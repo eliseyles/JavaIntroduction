@@ -5,9 +5,9 @@
 package simpleclasses.task3;
 
 public class GroupView {
-    public static void printGroup(Group group) {
+    public void printGroup(Group group) {
         for (int i = 0; i < group.size(); i++) {
-            StudentView.printStudent(group.getStudent(i));
+            new StudentView().printStudent(group.getStudent(i));
         }
     }
 }

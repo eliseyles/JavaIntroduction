@@ -6,7 +6,7 @@
 package simpleclasses.task6;
 
 public class TimeView {
-    public static void printTime(Time time) {
+    public void printTime(Time time) {
         System.out.println((time.getHour() < 10 ? "0" : "") + time.getHour() + ":"
                 + (time.getMinute()< 10 ? "0" : "") + time.getMinute() + ":"
                 + (time.getSecond()< 10 ? "0" : "") + time.getSecond());

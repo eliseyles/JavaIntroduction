@@ -9,35 +9,39 @@
 package simpleclasses.task8;
 
 public class CustomerBaseLogic {
-    public static CustomerBase sortByDestination(CustomerBase customerBase) {
+    public CustomerBase sortFullName(CustomerBase customerBase) {
         if (customerBase != null) {
-            for (int i = 0; i < customerBase.getTrains().size(); i++) {
-                for (int j = 0; j < customerBase.getTrains().size(); j++) {
-                    if (compareByDestination(customerBase.getTrains().get(i), customerBase.getTrains().get(j))) {
-                        Train train = customerBase.getTrains().get(i);
-                        customerBase.getTrains().set(i, customerBase.getTrains().get(j));
-                        customerBase.getTrains().set(j, train);
+            for (int i = 0; i < customerBase.size(); i++) {
+                for (int j = 0; j < customerBase.size(); j++) {
+                    if (compareByDestination(customerBase.getCustomer(i), customerBase.getCustomer(j))) {
+                        Customer customer = customerBase.getCustomer(i);
+                        customerBase.setCustomer(i, customerBase.getCustomer(j));
+                        customerBase.setCustomer(j, customer);
                     }
                 }
             }
-            Class cl;
             return customerBase;
         }
-        return new Depot();
+        return new CustomerBase();
     }
 
-    private static boolean compareByDestination(Train firstTrain, Train secondTrain) {
-        if (firstTrain != null && secondTrain != null) {
-            if (firstTrain.getDestination().equals(secondTrain.getDestination())) {
-                if (firstTrain.getTime()[0] != secondTrain.getTime()[0]) {
-                    return firstTrain.getTime()[0] < secondTrain.getTime()[0];
+    private boolean compareByDestination(Customer firstCustomer, Customer secondCustomer) {
+        if (firstCustomer != null && secondCustomer != null) {
+            if (firstCustomer.getSurname().equals(secondCustomer.getSurname())) {
+                if (firstCustomer.getName().equals(secondCustomer.getName())) {
+                    return String.CASE_INSENSITIVE_ORDER.
+                            compare(firstCustomer.getPatronymic(), secondCustomer.getPatronymic()) < 0;
                 } else {
-                    return firstTrain.getTime()[1] < secondTrain.getTime()[1];
+                    return String.CASE_INSENSITIVE_ORDER.
+                            compare(firstCustomer.getName(), secondCustomer.getName()) < 0;
                 }
             } else {
-                return String.CASE_INSENSITIVE_ORDER.compare(firstTrain.getDestination(), secondTrain.getDestination()) < 0;
+                return String.CASE_INSENSITIVE_ORDER.
+                        compare(firstCustomer.getSurname(), secondCustomer.getSurname()) < 0;
             }
         }
         return false;
     }
+
+    
 }
