@@ -17,8 +17,24 @@ public class Group {
         this.students = new Student[]{};
     }
 
-    public Student[] getStudents() {
-        return students;
+    public int size() {
+        return students.length;
+    }
+
+    public Student getStudent(int index) {
+        if (index >= 0 && index < size()) {
+            return students[index];
+        }
+        return null;
+    }
+
+    public boolean add(Student student) {
+        if (student != null) {
+            students = Arrays.copyOf(students, size() + 1);
+            students[size() - 1] = student;
+            return true;
+        }
+        return false;
     }
 
     @Override

@@ -8,12 +8,12 @@ import java.util.ArrayList;
 
 public class GroupLogic {
     public Group getExcelentStudents(Group group) {
-        ArrayList<Student> excelentStudents = new ArrayList<Student>();
-        for (int i = 0; i < group.getStudents().length; i++) {
-            if (StudentLogic.isProgressive((Student) group.getStudents()[i])) {
-                excelentStudents.add((Student) group.getStudents()[i]);
+        Group excelentStudents = new Group();
+        for (int i = 0; i < group.size(); i++) {
+            if (StudentLogic.isProgressive(group.getStudent(i))) {
+                excelentStudents.add(group.getStudent(i));
             }
         }
-        return new Group(excelentStudents.toArray(new Student[excelentStudents.size()]));
+        return excelentStudents;
     }
 }

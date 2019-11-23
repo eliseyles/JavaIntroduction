@@ -9,12 +9,12 @@ package simpleclasses.task4;
 public class DepotLogic {
     public static Depot sortByNumber(Depot depot) {
         if (depot != null) {
-            for (int i = 0; i < depot.getTrains().size(); i++) {
-                for (int j = 0; j < depot.getTrains().size(); j++) {
-                    if (compareByNumber(depot.getTrains().get(i), depot.getTrains().get(j))) {
-                        Train train = depot.getTrains().get(i);
-                        depot.getTrains().set(i, depot.getTrains().get(j));
-                        depot.getTrains().set(j, train);
+            for (int i = 0; i < depot.size(); i++) {
+                for (int j = 0; j < depot.size(); j++) {
+                    if (compareByNumber(depot.getTrain(i), depot.getTrain(j))) {
+                        Train train = depot.getTrain(i);
+                        depot.setTrain(i, depot.getTrain(j));
+                        depot.setTrain(j, train);
                     }
                 }
             }
@@ -34,7 +34,7 @@ public class DepotLogic {
         Depot sameNumberTrainDepot = new Depot();
         for (Train train : depot.getTrains()) {
             if (number == train.getNumber()) {
-                sameNumberTrainDepot.getTrains().add(train);
+                sameNumberTrainDepot.add(train);
             }
         }
         return sameNumberTrainDepot;
@@ -42,12 +42,12 @@ public class DepotLogic {
 
     public static Depot sortByDestination(Depot depot) {
         if (depot != null) {
-            for (int i = 0; i < depot.getTrains().size(); i++) {
-                for (int j = 0; j < depot.getTrains().size(); j++) {
-                    if (compareByDestination(depot.getTrains().get(i), depot.getTrains().get(j))) {
-                        Train train = depot.getTrains().get(i);
-                        depot.getTrains().set(i, depot.getTrains().get(j));
-                        depot.getTrains().set(j, train);
+            for (int i = 0; i < depot.size(); i++) {
+                for (int j = 0; j < depot.size(); j++) {
+                    if (compareByDestination(depot.getTrain(i), depot.getTrain(j))) {
+                        Train train = depot.getTrain(i);
+                        depot.setTrain(i, depot.getTrain(j));
+                        depot.setTrain(j, train);
                     }
                 }
             }

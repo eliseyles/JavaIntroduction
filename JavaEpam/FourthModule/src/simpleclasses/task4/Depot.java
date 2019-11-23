@@ -7,11 +7,11 @@
 package simpleclasses.task4;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 public class Depot {
-    private ArrayList<Train> trains;
-
+    private List<Train> trains;
 
     public Depot() {
         trains = new ArrayList<Train>();
@@ -21,8 +21,35 @@ public class Depot {
         this.trains = trains;
     }
 
-    public ArrayList<Train> getTrains() {
-        return trains;
+    public List<Train> getTrains() {
+        return new ArrayList<>(trains);
+    }
+
+    public void add(Train train) {
+        if (train != null) {
+            trains.add(train);
+        }
+    }
+
+    public int size() {
+        return trains.size();
+    }
+
+    public Train getTrain(int index) {
+        if(isValidIndex(index)) {
+            return trains.get(index);
+        }
+        return null;
+    }
+
+    public void setTrain(int index, Train train) {
+        if (isValidIndex(index) && train != null) {
+            trains.set(index, train);
+        }
+    }
+
+    private boolean isValidIndex(int index) {
+        return index >= 0 && index < size();
     }
 
     @Override

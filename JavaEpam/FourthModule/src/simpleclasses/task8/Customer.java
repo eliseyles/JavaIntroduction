@@ -8,13 +8,83 @@
 
 package simpleclasses.task8;
 
-public class Customer {
-    private int id;
-    private String surname;
-    private String name;
-    private String patronymic;
-    private String address;
-    private int creditCardId;
-    private int
+import java.util.Objects;
 
+public class Customer {
+    private static int customerCount = 1;
+    private int id;
+    private Person person;
+    private String creditCardId;
+    private String bankAccountId;
+
+
+    public Customer() {
+        id = customerCount;
+        person = new Person();
+        creditCardId = "";
+        bankAccountId = "";
+        customerCount++;
+    }
+
+    public Customer(Person person, String creditCardId, String bankAccountId) {
+        this.id = customerCount;
+        this.person = person;
+        this.creditCardId = creditCardId;
+        this.bankAccountId = bankAccountId;
+        customerCount++;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public Person getPerson() {
+        return person;
+    }
+
+    public void setPerson(Person person) {
+        this.person = person;
+    }
+
+    public String getCreditCardId() {
+        return creditCardId;
+    }
+
+    public void setCreditCardId(String creditCardId) {
+        this.creditCardId = creditCardId;
+    }
+
+    public String getBankAccountId() {
+        return bankAccountId;
+    }
+
+    public void setBankAccountId(String bankAccountId) {
+        this.bankAccountId = bankAccountId;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Customer customer = (Customer) o;
+        return id == customer.id &&
+                Objects.equals(person, customer.person) &&
+                Objects.equals(creditCardId, customer.creditCardId) &&
+                Objects.equals(bankAccountId, customer.bankAccountId);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, person, creditCardId, bankAccountId);
+    }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "id=" + id +
+                ", person=" + person +
+                ", creditCardId='" + creditCardId + '\'' +
+                ", bankAccountId='" + bankAccountId + '\'' +
+                '}';
+    }
 }
