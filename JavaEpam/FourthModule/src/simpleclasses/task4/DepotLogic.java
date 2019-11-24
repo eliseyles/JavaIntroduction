@@ -66,7 +66,7 @@ public class DepotLogic {
                     return firstTrain.getTime()[1] < secondTrain.getTime()[1];
                 }
             } else {
-                return String.CASE_INSENSITIVE_ORDER.compare(firstTrain.getDestination(), secondTrain.getDestination()) < 0;
+                return firstTrain.getDestination().compareTo(secondTrain.getDestination()) < 0;
             }
         }
         return false;
