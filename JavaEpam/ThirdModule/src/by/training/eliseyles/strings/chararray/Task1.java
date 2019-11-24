@@ -1,8 +1,8 @@
 //1. Дан массив названий переменных в camelCase. Преобразовать названия в snake_case
 
-package strings.chararray;
+package by.training.eliseyles.strings.chararray;
 
-import strings.util.Input;
+import by.training.eliseyles.strings.util.Input;
 
 import java.util.Arrays;
 

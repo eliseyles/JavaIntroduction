@@ -1,8 +1,8 @@
 //2. Замените в строке все вхождения 'word' на 'letter'.
 
-package strings.chararray;
+package by.training.eliseyles.strings.chararray;
 
-import strings.util.Input;
+import by.training.eliseyles.strings.util.Input;
 
 import java.util.Arrays;
 

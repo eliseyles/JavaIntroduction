@@ -1,8 +1,8 @@
 //1. Дан текст (строка). Найдите наибольшее количество подряд идущих пробелов в нем.
 
-package strings.stringobject;
+package by.training.eliseyles.strings.stringobject;
 
-import strings.util.Input;
+import by.training.eliseyles.strings.util.Input;
 
 public class Task1 {
     private static final int ZERO = 0;

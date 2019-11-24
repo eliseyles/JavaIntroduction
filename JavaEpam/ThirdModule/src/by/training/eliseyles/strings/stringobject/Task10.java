@@ -1,10 +1,9 @@
 //10. Строка X состоит из нескольких предложений, каждое из которых кончается точкой, восклицательным или вопросительным
 //знаком. Определить количество предложений в строке X.
 
-package strings.stringobject;
+package by.training.eliseyles.strings.stringobject;
 
-import org.omg.PortableInterceptor.NON_EXISTENT;
-import strings.util.Input;
+import by.training.eliseyles.strings.util.Input;
 
 public class Task10 {
     private static final int ZERO = 0;

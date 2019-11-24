@@ -1,8 +1,8 @@
 //5. Подсчитать, сколько раз среди символов заданной строки встречается буква “а”.
 
-package strings.stringobject;
+package by.training.eliseyles.strings.stringobject;
 
-import strings.util.Input;
+import by.training.eliseyles.strings.util.Input;
 
 public class Task5 {
     private static final int ZERO = 0;

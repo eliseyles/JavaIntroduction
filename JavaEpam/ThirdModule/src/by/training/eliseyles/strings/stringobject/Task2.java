@@ -1,8 +1,8 @@
 //2. В строке вставить после каждого символа 'a' символ 'b'.
 
-package strings.stringobject;
+package by.training.eliseyles.strings.stringobject;
 
-import strings.util.Input;
+import by.training.eliseyles.strings.util.Input;
 
 public class Task2 {
     private static final int ZERO = 0;

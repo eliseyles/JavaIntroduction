@@ -1,9 +1,9 @@
 //7. Вводится строка. Требуется удалить из нее повторяющиеся символы и все пробелы. Например, если было введено "abc cde
 //def", то должно быть выведено "abcdef".
 
-package strings.stringobject;
+package by.training.eliseyles.strings.stringobject;
 
-import strings.util.Input;
+import by.training.eliseyles.strings.util.Input;
 
 public class Task7 {
     private static final int ZERO = 0;

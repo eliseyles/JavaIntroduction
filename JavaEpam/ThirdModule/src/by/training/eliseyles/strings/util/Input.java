@@ -1,4 +1,4 @@
-package strings.util;
+package by.training.eliseyles.strings.util;
 
 import java.util.Scanner;
 

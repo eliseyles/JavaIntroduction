@@ -1,8 +1,8 @@
 //3. В строке найти количество цифр
 
-package strings.chararray;
+package by.training.eliseyles.strings.chararray;
 
-import strings.util.Input;
+import by.training.eliseyles.strings.util.Input;
 
 public class Task3 {
     private static final int ZERO = 0;

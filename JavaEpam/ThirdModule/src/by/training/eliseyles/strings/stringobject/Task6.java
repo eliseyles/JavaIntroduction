@@ -1,8 +1,8 @@
 //6. Из заданной строки получить новую, повторив каждый символ дважды.
 
-package strings.stringobject;
+package by.training.eliseyles.strings.stringobject;
 
-import strings.util.Input;
+import by.training.eliseyles.strings.util.Input;
 
 public class Task6 {
     private static final int ZERO = 0;

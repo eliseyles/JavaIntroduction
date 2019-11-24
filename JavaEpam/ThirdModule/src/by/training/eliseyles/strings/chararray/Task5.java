@@ -1,9 +1,9 @@
 //5. Удалить в строке все лишние пробелы, то есть серии подряд идущих пробелов заменить на одиночные пробелы.
 //Крайние пробелы в строке удалить.
 
-package strings.chararray;
+package by.training.eliseyles.strings.chararray;
 
-import strings.util.Input;
+import by.training.eliseyles.strings.util.Input;
 
 import java.util.Arrays;
 

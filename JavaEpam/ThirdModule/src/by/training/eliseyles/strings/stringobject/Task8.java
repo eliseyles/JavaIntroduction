@@ -1,9 +1,9 @@
 //8. Вводится строка слов, разделенных пробелами. Найти самое длинное слово и вывести его на экран. Случай, когда самых
 //длинных слов может быть несколько, не обрабатывать.
 
-package strings.stringobject;
+package by.training.eliseyles.strings.stringobject;
 
-import strings.util.Input;
+import by.training.eliseyles.strings.util.Input;
 
 public class Task8 {
     private static final String EMPTY_STRING = "";

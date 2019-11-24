@@ -1,9 +1,9 @@
 //9. Посчитать количество строчных (маленьких) и прописных (больших) букв в введенной строке. Учитывать только английские
 //буквы.
 
-package strings.stringobject;
+package by.training.eliseyles.strings.stringobject;
 
-import strings.util.Input;
+import by.training.eliseyles.strings.util.Input;
 
 public class Task9 {
     private static final int ZERO = 0;

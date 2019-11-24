@@ -1,8 +1,8 @@
 //3. Проверить, является ли заданное слово палиндромом.
 
-package strings.stringobject;
+package by.training.eliseyles.strings.stringobject;
 
-import strings.util.Input;
+import by.training.eliseyles.strings.util.Input;
 
 public class Task3 {
     private static final int ZERO = 0;
