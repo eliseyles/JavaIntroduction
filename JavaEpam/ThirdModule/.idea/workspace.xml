@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44885a0d-26bf-40d4-a506-182e70ddda97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/by/training/eliseyles/strings/stringobject/Task4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FourthModule/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FourthModule/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SecondModule/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondModule/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/chararray/Task1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/chararray/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/training/eliseyles/strings/chararray/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/chararray/Task2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/chararray/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/training/eliseyles/strings/chararray/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/chararray/Task3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/chararray/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/training/eliseyles/strings/chararray/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/chararray/Task4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/chararray/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/training/eliseyles/strings/chararray/Task4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/chararray/Task5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/chararray/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/training/eliseyles/strings/chararray/Task5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/regulars/Task1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/regulars/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/training/eliseyles/strings/regulars/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/stringobject/Task1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/stringobject/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/training/eliseyles/strings/stringobject/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/stringobject/Task10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/stringobject/Task10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/training/eliseyles/strings/stringobject/Task10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/stringobject/Task2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/stringobject/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/training/eliseyles/strings/stringobject/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/stringobject/Task3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/stringobject/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/training/eliseyles/strings/stringobject/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/stringobject/Task4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/stringobject/Task5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/stringobject/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/training/eliseyles/strings/stringobject/Task5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/stringobject/Task6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/stringobject/Task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/training/eliseyles/strings/stringobject/Task6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/stringobject/Task7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/stringobject/Task7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/training/eliseyles/strings/stringobject/Task7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/stringobject/Task8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/stringobject/Task8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/training/eliseyles/strings/stringobject/Task8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/stringobject/Task9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/stringobject/Task9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/training/eliseyles/strings/stringobject/Task9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/util/Input.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/util/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/training/eliseyles/strings/util/Input.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +15,7 @@
     <session id="403882216">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
@@ -87,7 +52,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/strings/regulars/Task1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -96,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/strings/stringobject/Task4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -188,6 +153,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="strings" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ThirdModule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThirdModule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="strings" type="462c0819:PsiDirectoryNode" />
+              <item name="regulars" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -197,7 +169,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574634225697" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574634784981" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SecondModule" />
   </component>
   <component name="RunDashboard">
@@ -310,6 +282,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -473,13 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/strings/regulars/Task1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TODO.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -489,8 +455,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/strings/stringobject/Task4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/strings/regulars/Task1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>

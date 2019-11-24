@@ -30,24 +30,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="229" />
+          <entry key="java" value="235" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="229" />
+          <entry key="JAVA" value="235" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="96" />
-          <entry key="java" value="15834" />
+          <entry key="java" value="16809" />
           <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15834" />
+          <entry key="JAVA" value="16809" />
           <entry key="PLAIN_TEXT" value="115" />
         </counts>
       </usages-collector>
@@ -56,10 +56,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task10/container/AirlineRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task10/container/AirlineRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+              <caret line="36" column="5" selection-start-line="32" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,10 +68,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/agregation/task3/container/State.java">
+        <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/container/State.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+            <state relative-caret-position="166">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding>
                 <element signature="e#0#228#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -91,10 +91,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/agregation/task3/StateRunner.java">
+        <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/StateRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="56" lean-forward="true" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+            <state relative-caret-position="200">
+              <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+              <folding>
+                <element signature="e#0#1535#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/view/StateView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,46 +116,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/agregation/task3/container/Region.java">
+        <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/view/DistrictView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            <state relative-caret-position="187">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/view/RegionView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/container/Region.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1641#1642#0" expanded="true" />
                 <element signature="e#1670#1671#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task10/AirlineRepositoryRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/agregation/task3/container/District.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="9" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#840#841#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,15 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/simpleclasses/task8/CustomerBaseRunner.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task8/CustomerBaseLogic.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task4/DepotLogic.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task9/Book.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task8/CustomerBase.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task9/BookRepository.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task9/BookView.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task9/BookRepositoryView.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task9/view/BookRepositoryView.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task9/entity/BookRepository.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task7/entity/Triangle.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task3/Student.java" />
@@ -220,6 +213,15 @@
         <option value="$PROJECT_DIR$/src/agregation/task3/container/State.java" />
         <option value="$PROJECT_DIR$/src/agregation/task3/container/Region.java" />
         <option value="$PROJECT_DIR$/src/agregation/task3/StateRunner.java" />
+        <option value="$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/container/District.java" />
+        <option value="$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/entity/City.java" />
+        <option value="$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/container/Region.java" />
+        <option value="$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/container/State.java" />
+        <option value="$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/view/CityView.java" />
+        <option value="$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/view/DistrictView.java" />
+        <option value="$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/view/RegionView.java" />
+        <option value="$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/view/StateView.java" />
+        <option value="$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/StateRunner.java" />
       </list>
     </option>
   </component>
@@ -252,43 +254,31 @@
               <item name="FourthModule" type="b2602c69:ProjectViewProjectNode" />
               <item name="FourthModule" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="agregation" type="462c0819:PsiDirectoryNode" />
+              <item name="eliseyles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FourthModule" type="b2602c69:ProjectViewProjectNode" />
               <item name="FourthModule" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="agregation" type="462c0819:PsiDirectoryNode" />
+              <item name="eliseyles" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleclasses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FourthModule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FourthModule" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="eliseyles" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleclasses" type="462c0819:PsiDirectoryNode" />
               <item name="task3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FourthModule" type="b2602c69:ProjectViewProjectNode" />
               <item name="FourthModule" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="agregation" type="462c0819:PsiDirectoryNode" />
+              <item name="eliseyles" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleclasses" type="462c0819:PsiDirectoryNode" />
               <item name="task3" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FourthModule" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FourthModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="simpleclasses" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FourthModule" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FourthModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="simpleclasses" type="462c0819:PsiDirectoryNode" />
-              <item name="task10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FourthModule" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FourthModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="simpleclasses" type="462c0819:PsiDirectoryNode" />
-              <item name="task10" type="462c0819:PsiDirectoryNode" />
-              <item name="container" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,7 +287,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574634225622" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574639316324" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -311,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CarRunner">
+  <component name="RunManager" selected="Application.StateRunner">
     <configuration name="AirlineRepositoryRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="simpleclasses.task10.AirlineRepositoryRunner" />
       <module name="FourthModule" />
@@ -339,11 +329,24 @@
       </method>
     </configuration>
     <configuration name="CarRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="agregation.task2.CarRunner" />
+      <option name="MAIN_CLASS_NAME" value="by.training.eliseyles.agregation.task2.CarRunner" />
       <module name="FourthModule" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="agregation.task2.entity.*" />
+          <option name="PATTERN" value="by.training.eliseyles.agregation.task2.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StateRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.training.eliseyles.agregation.task3.StateRunner" />
+      <module name="FourthModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.training.eliseyles.agregation.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -352,24 +355,11 @@
       </method>
     </configuration>
     <configuration name="TextRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="agregation.task1.TextRunner" />
+      <option name="MAIN_CLASS_NAME" value="by.training.eliseyles.agregation.task1.TextRunner" />
       <module name="FourthModule" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="agregation.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TrainRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simpleclasses.task4.TrainRunner" />
-      <module name="FourthModule" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simpleclasses.task4.container.*" />
+          <option name="PATTERN" value="by.training.eliseyles.agregation.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -378,19 +368,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TrainRunner" />
       <item itemvalue="Application.BookRepositoryRunner" />
       <item itemvalue="Application.AirlineRepositoryRunner" />
       <item itemvalue="Application.TextRunner" />
       <item itemvalue="Application.CarRunner" />
+      <item itemvalue="Application.StateRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StateRunner" />
         <item itemvalue="Application.CarRunner" />
         <item itemvalue="Application.TextRunner" />
         <item itemvalue="Application.AirlineRepositoryRunner" />
         <item itemvalue="Application.BookRepositoryRunner" />
-        <item itemvalue="Application.TrainRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -409,6 +399,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19742814" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -420,7 +411,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.83797055" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3502455" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.4222586" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -449,7 +440,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/simpleclasses/task9/view/BookRepositoryView.java</url>
+          <url>file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task9/view/BookRepositoryView.java</url>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -457,32 +448,8 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/logic/StudentLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/entity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#1634#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="method#Student#0;class#Student#0" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="method#equals#0;class#Student#0" />
-            <element signature="method#hashCode#0;class#Student#0" />
-            <element signature="method#toString#0;class#Student#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/logic.java" />
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/logic/DepotLogic.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task4/logic/DepotLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
@@ -494,7 +461,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/entity/Train.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task4/entity/Train.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
@@ -507,56 +474,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/view/DepotView.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task4/view/DepotView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task6/view/TimeView.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task6/view/TimeView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task6/entity/Time.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task6/entity/Time.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task6/logic/TimeLogic.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task6/logic/TimeLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task5/entity/DecimalCounter.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task5/entity/DecimalCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/view/TrainView.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task4/view/TrainView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task9/view/BookRepositoryView.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task9/view/BookRepositoryView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task9/entity/Book.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task9/entity/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="28" />
@@ -570,7 +537,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task9/logic/BookRepositoryLogic.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task9/logic/BookRepositoryLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="32" />
@@ -583,14 +550,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/container/Group.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task3/container/Group.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-34">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/container/Depot.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task4/container/Depot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-198">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
@@ -600,7 +567,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task9/container/BookRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task9/container/BookRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1011">
           <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
@@ -613,21 +580,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task10/view/AirlineRepositoryView.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task10/view/AirlineRepositoryView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task10/view/AirlineView.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task10/view/AirlineView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task10/entity/Airline.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task10/entity/Airline.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="87" lean-forward="true" selection-end-line="7" selection-end-column="87" />
@@ -661,7 +628,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task9/BookRepositoryRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task9/BookRepositoryRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="19" selection-start-line="19" selection-end-line="20" />
@@ -671,7 +638,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task10/logic/AirlineRepositoryLogic.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task10/logic/AirlineRepositoryLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
@@ -681,7 +648,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task1/containers/Sentence.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task1/containers/Sentence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="34" lean-forward="true" selection-end-line="1" selection-end-column="34" />
@@ -702,7 +669,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task1/entity/Word.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task1/entity/Word.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -722,7 +689,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task1/containers/Text.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task1/containers/Text.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
           <caret line="1" column="28" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="28" />
@@ -744,21 +711,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task1/view/SentenseView.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task1/view/SentenseView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task1/view/TextView.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task1/view/TextView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task1/TextRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task1/TextRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
@@ -804,7 +771,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task8/logic/CustomerBaseLogic.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task8/logic/CustomerBaseLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="63" selection-start-line="63" selection-end-line="63" />
@@ -814,21 +781,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task8/CustomerBaseRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task8/CustomerBaseRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="39" column="75" lean-forward="true" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task2/CarRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task2/CarRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task2/entity/Car.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task2/entity/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -840,14 +807,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task2/view/CarView.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task2/view/CarView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task2/entity/Engine.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task2/entity/Engine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
@@ -858,14 +825,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task2/logic/CarAction.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task2/logic/CarAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task2/entity/Wheel.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task2/entity/Wheel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -878,83 +845,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task3/entity/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task3/view/CityView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task3/view/RegionView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="57" lean-forward="true" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-          <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task3/view/StateView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#226#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task3/logic/StateLogic.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/logic/StateLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task10/container/AirlineRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task10/container/AirlineRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+          <caret line="36" column="5" selection-start-line="32" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task3/container/State.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task10/AirlineRepositoryRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        <state relative-caret-position="255">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/entity/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/container/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
             <element signature="e#0#228#0" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -972,38 +904,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task3/container/District.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/view/RegionView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="153">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/simpleclasses/task3/logic/StudentLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/view/StateView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/view/CityView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/view/DistrictView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/container/District.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#251#252#0" expanded="true" />
             <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
             <element signature="e#355#356#0" expanded="true" />
             <element signature="e#384#385#0" expanded="true" />
             <element signature="e#432#433#0" expanded="true" />
             <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
             <element signature="e#797#798#0" expanded="true" />
             <element signature="e#840#841#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task10/AirlineRepositoryRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/container/Region.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task3/container/Region.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        <state relative-caret-position="170">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1641#1642#0" expanded="true" />
@@ -1012,11 +979,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agregation/task3/StateRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/by/training/eliseyles/agregation/task3/StateRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="56" lean-forward="true" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        <state relative-caret-position="200">
+          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
           <folding>
+            <element signature="e#0#1535#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
