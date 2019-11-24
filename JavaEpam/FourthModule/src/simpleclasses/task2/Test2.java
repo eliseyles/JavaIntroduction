@@ -2,11 +2,8 @@
 //конструктор, инициализирующий члены класса по умолчанию. Добавьте set- и get- методы для полей экземпляра
 //класса
 
-package simpleclasses;
+package simpleclasses.task2;
 
-import javafx.util.Pair;
-
-import java.util.HashMap;
 import java.util.Objects;
 
 public class Test2 {
