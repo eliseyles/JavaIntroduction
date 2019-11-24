@@ -5,6 +5,10 @@
 
 package simpleclasses.task6;
 
+import simpleclasses.task6.entity.Time;
+import simpleclasses.task6.logic.TimeLogic;
+import simpleclasses.task6.view.TimeView;
+
 public class TestRunner {
     public static void main(String[] args) {
         Time time = new Time();

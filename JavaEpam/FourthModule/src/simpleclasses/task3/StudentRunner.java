@@ -4,6 +4,11 @@
 
 package simpleclasses.task3;
 
+import simpleclasses.task3.container.Group;
+import simpleclasses.task3.entity.Student;
+import simpleclasses.task3.logic.GroupLogic;
+import simpleclasses.task3.view.GroupView;
+
 public class StudentRunner {
     public static final String[] NAMES = new String[]{"dsd", "dsdsd", "hasukf", "fjdk", "yreui", "fdleq",
             "fhdj", "as", "awe", "irej"};

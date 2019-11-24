@@ -5,6 +5,8 @@
 
 package simpleclasses.task5;
 
+import simpleclasses.task5.entity.DecimalCounter;
+
 public class DecimalCounterRunner {
     public static void main(String[] args) {
         System.out.println("Default initializing");

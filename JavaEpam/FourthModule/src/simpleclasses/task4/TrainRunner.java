@@ -6,7 +6,10 @@
 
 package simpleclasses.task4;
 
-import jdk.internal.org.objectweb.asm.util.TraceAnnotationVisitor;
+import simpleclasses.task4.container.Depot;
+import simpleclasses.task4.entity.Train;
+import simpleclasses.task4.logic.DepotLogic;
+import simpleclasses.task4.view.DepotView;
 
 import java.util.ArrayList;
 import java.util.Random;

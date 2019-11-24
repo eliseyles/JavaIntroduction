@@ -8,6 +8,11 @@
 
 package simpleclasses.task8;
 
+import simpleclasses.task8.container.CustomerBase;
+import simpleclasses.task8.entity.Customer;
+import simpleclasses.task8.logic.CustomerBaseLogic;
+import simpleclasses.task8.view.CustomerBaseView;
+
 import java.util.Random;
 
 public class CustomerBaseRunner {

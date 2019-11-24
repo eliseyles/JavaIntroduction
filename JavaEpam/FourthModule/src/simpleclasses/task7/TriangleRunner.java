@@ -1,5 +1,10 @@
 package simpleclasses.task7;
 
+import simpleclasses.task7.entity.Point;
+import simpleclasses.task7.entity.Triangle;
+import simpleclasses.task7.logic.TriangleLogic;
+import simpleclasses.task7.view.PointView;
+
 public class TriangleRunner {
 
     public static void main(String[] args) {
