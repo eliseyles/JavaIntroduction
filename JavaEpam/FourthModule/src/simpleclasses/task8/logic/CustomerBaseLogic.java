@@ -11,6 +11,8 @@ package simpleclasses.task8.logic;
 import simpleclasses.task8.container.CustomerBase;
 import simpleclasses.task8.entity.Customer;
 
+import java.util.HashMap;
+
 public class CustomerBaseLogic {
     public CustomerBase sortFullName(CustomerBase customerBase) {
         if (customerBase != null) {
@@ -59,5 +61,6 @@ public class CustomerBaseLogic {
     private boolean isCardNumberInBounds(String cardNumber, String lowBound, String highBound) {
         return cardNumber.compareTo(lowBound) >= 0
                 && cardNumber.compareTo(highBound) <= 0;
+
     }
 }
