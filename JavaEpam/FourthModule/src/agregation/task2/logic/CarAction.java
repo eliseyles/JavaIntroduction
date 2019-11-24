@@ -1,4 +1,7 @@
-package agregation.task2;
+package agregation.task2.logic;
+
+import agregation.task2.entity.Car;
+import agregation.task2.entity.Wheel;
 
 public class CarAction{
 
@@ -10,7 +13,7 @@ public class CarAction{
             car.setFuel(fuel);
         }
 
-        public void changeWheel(Car car,  Wheel wheel, int index) {
+        public void changeWheel(Car car, Wheel wheel, int index) {
             car.setWheel(wheel, index);
         }
 

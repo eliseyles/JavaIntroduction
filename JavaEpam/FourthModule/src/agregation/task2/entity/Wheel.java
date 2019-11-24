@@ -1,4 +1,4 @@
-package agregation.task2;
+package agregation.task2.entity;
 
 import java.util.Objects;
 

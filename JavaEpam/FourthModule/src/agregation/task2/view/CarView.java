@@ -1,4 +1,6 @@
-package agregation.task2;
+package agregation.task2.view;
+
+import agregation.task2.entity.Car;
 
 public class CarView {
     public void printBrand(Car car) {

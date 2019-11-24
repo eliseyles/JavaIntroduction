@@ -1,5 +1,11 @@
 package agregation.task2;
 
+import agregation.task2.entity.Car;
+import agregation.task2.entity.Engine;
+import agregation.task2.entity.Wheel;
+import agregation.task2.logic.CarAction;
+import agregation.task2.view.CarView;
+
 import java.util.ArrayList;
 
 public class CarRunner {
