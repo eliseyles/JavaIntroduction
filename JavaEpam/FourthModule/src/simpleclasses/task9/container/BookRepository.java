@@ -48,7 +48,7 @@ public class BookRepository {
         return null;
     }
 
-    public void setCustomer(int index, Book book) {
+    public void setBook(int index, Book book) {
         if (isValidIndex(index) && book != null) {
             books.set(index, book);
         }

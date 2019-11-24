@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3036373-e495-4acf-8d63-9f5ee76c94a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/simpleclasses/task3/view/StudentView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task3/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task3/container/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task3/GroupLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task3/logic/GroupLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task3/GroupView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task3/view/GroupView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task3/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task3/StudentLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task3/logic/StudentLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task3/StudentRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task3/StudentRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task3/StudentView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task4/Depot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task4/DepotLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task4/logic/DepotLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task4/DepotView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task4/view/DepotView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task4/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task4/container/Depot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task4/TrainRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task4/TrainRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task4/TrainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task4/view/TrainView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task5/DecimalCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task5/entity/DecimalCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task5/DecimalCounterRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task5/DecimalCounterRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task6/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task6/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task6/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task6/entity/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task6/TimeLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task6/logic/TimeLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task6/TimeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task6/view/TimeView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task7/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task7/entity/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task7/PointLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task7/logic/PointLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task7/PointView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task7/view/PointView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task7/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task7/entity/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task7/TriangleLogic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task7/TriangleRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task7/TriangleRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task8/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task8/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task8/CustomerBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task8/container/CustomerBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task8/CustomerBaseLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task8/logic/CustomerBaseLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task8/CustomerBaseRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task8/CustomerBaseRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task8/CustomerBaseView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task8/view/CustomerBaseView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task8/CustomerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task8/view/CustomerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simpleclasses/task9/container/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleclasses/task9/container/BookRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SecondModule/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondModule/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -57,23 +25,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="179" />
+          <entry key="java" value="189" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="179" />
+          <entry key="JAVA" value="189" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="79" />
-          <entry key="java" value="11953" />
+          <entry key="java" value="13267" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11953" />
+          <entry key="JAVA" value="13267" />
           <entry key="PLAIN_TEXT" value="79" />
         </counts>
       </usages-collector>
@@ -82,58 +50,73 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task9/entity/Book.java">
+        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task10/entity/Airline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="119">
+              <caret line="7" column="87" lean-forward="true" selection-end-line="7" selection-end-column="87" />
               <folding>
-                <element signature="e#0#3880#0" expanded="true" />
-                <element signature="method#Book#0;class#Book#0" />
-                <element signature="method#Book#1;class#Book#0" />
-                <element signature="e#2088#2089#0" expanded="true" />
-                <element signature="e#2115#2116#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task9/container/BookRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#2060#0" expanded="true" />
+                <element signature="e#0#638#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="method#add#0;class#BookRepository#0" />
+                <element signature="method#Airline#0;class#Airline#0" />
+                <element signature="e#1351#1352#0" expanded="true" />
+                <element signature="e#1378#1379#0" expanded="true" />
+                <element signature="e#1529#1530#0" expanded="true" />
+                <element signature="e#1558#1559#0" expanded="true" />
+                <element signature="e#1749#1750#0" expanded="true" />
+                <element signature="e#1783#1784#0" expanded="true" />
+                <element signature="e#1837#1838#0" expanded="true" />
+                <element signature="e#1883#1884#0" expanded="true" />
+                <element signature="e#1913#1914#0" expanded="true" />
+                <element signature="e#1942#1943#0" expanded="true" />
+                <element signature="e#1983#1984#0" expanded="true" />
+                <element signature="e#2019#2020#0" expanded="true" />
+                <element signature="e#2055#2056#0" expanded="true" />
+                <element signature="e#2087#2088#0" expanded="true" />
+                <element signature="e#2137#2138#0" expanded="true" />
+                <element signature="e#2179#2180#0" expanded="true" />
+                <element signature="e#2341#2342#0" expanded="true" />
+                <element signature="e#2371#2372#0" expanded="true" />
+                <element signature="e#2417#2418#0" expanded="true" />
+                <element signature="e#2455#2456#0" expanded="true" />
+                <element signature="e#2904#2905#0" expanded="true" />
+                <element signature="e#2994#2995#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task9/logic/BookRepositoryLogic.java">
+        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task9/BookRepositoryRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="32" />
+            <state relative-caret-position="99">
+              <caret line="19" selection-start-line="19" selection-end-line="20" />
               <folding>
-                <element signature="e#0#620#0" expanded="true" />
-                <element signature="method#findBooksByAuthor#0;class#BookRepositoryLogic#0" />
-                <element signature="method#findBooksByPublisher#0;class#BookRepositoryLogic#0" />
-                <element signature="method#findBooksPushedAfterYear#0;class#BookRepositoryLogic#0" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task9/BookRepositoryRunner.java">
+        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task10/AirlineRepositoryRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="43" column="100" lean-forward="true" selection-start-line="43" selection-start-column="100" selection-end-line="43" selection-end-column="100" />
+            <state relative-caret-position="46">
+              <caret line="44" column="99" selection-start-line="44" selection-start-column="99" selection-end-line="44" selection-end-column="99" />
               <folding>
-                <element signature="e#0#1380#0" expanded="true" />
+                <element signature="e#0#654#0" expanded="true" />
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simpleclasses/task10/logic/AirlineRepositoryLogic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#659#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,14 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/simpleclasses/task5/DecimalCounter.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task4/TrainLogic.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task5/TestDecimalCounter.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task3/StudentTask.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task4/Train.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task4/TrainTask.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task6/Time.java" />
-        <option value="$PROJECT_DIR$/src/simpleclasses/task6/TestTime.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task7/Point.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task7/TriangleLogic.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task4/Quest.java" />
@@ -211,6 +186,14 @@
         <option value="$PROJECT_DIR$/src/simpleclasses/task6/logic/TimeLogic.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task9/logic/BookRepositoryLogic.java" />
         <option value="$PROJECT_DIR$/src/simpleclasses/task9/BookRepositoryRunner.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task10/Airline.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task9/container/BookRepository.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task10/entity/Airline.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task10/view/AirlineView.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task10/view/AirlineRepositoryView.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task10/container/AirlineRepository.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task10/logic/AirlineRepositoryLogic.java" />
+        <option value="$PROJECT_DIR$/src/simpleclasses/task10/AirlineRepositoryRunner.java" />
       </list>
     </option>
   </component>
@@ -249,13 +232,6 @@
               <item name="FourthModule" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="simpleclasses" type="462c0819:PsiDirectoryNode" />
-              <item name="task8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FourthModule" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FourthModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="simpleclasses" type="462c0819:PsiDirectoryNode" />
               <item name="task9" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -263,8 +239,7 @@
               <item name="FourthModule" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="simpleclasses" type="462c0819:PsiDirectoryNode" />
-              <item name="task9" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="task10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -274,7 +249,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574589217981" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574592746552" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -288,7 +263,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BookRepositoryRunner">
+  <component name="RunManager" selected="Application.AirlineRepositoryRunner">
+    <configuration name="AirlineRepositoryRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simpleclasses.task10.AirlineRepositoryRunner" />
+      <module name="FourthModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simpleclasses.task10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookRepositoryRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="simpleclasses.task9.BookRepositoryRunner" />
       <module name="FourthModule" />
@@ -308,19 +296,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="simpleclasses.task8.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simpleclasses.task6.TestRunner" />
-      <module name="FourthModule" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simpleclasses.task6.logic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -356,18 +331,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.TrainRunner" />
-      <item itemvalue="Application.TestRunner" />
       <item itemvalue="Application.TriangleRunner" />
       <item itemvalue="Application.CustomerBaseRunner" />
       <item itemvalue="Application.BookRepositoryRunner" />
+      <item itemvalue="Application.AirlineRepositoryRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AirlineRepositoryRunner" />
         <item itemvalue="Application.BookRepositoryRunner" />
         <item itemvalue="Application.TrainRunner" />
         <item itemvalue="Application.CustomerBaseRunner" />
         <item itemvalue="Application.TriangleRunner" />
-        <item itemvalue="Application.TestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +363,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -397,8 +372,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" visible="true" weight="0.13256955" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.18330605" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.83797055" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.690671" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -431,48 +406,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task5/gdjfklgf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/TrainLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="155" column="24" lean-forward="true" selection-start-line="155" selection-start-column="24" selection-end-line="155" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/StrictMath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="1313" column="34" lean-forward="true" selection-start-line="1313" selection-start-column="34" selection-end-line="1313" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -720,13 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/container/Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/logic/DepotLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -794,16 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/container/Depot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/simpleclasses/task9/view/BookRepositoryView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -832,18 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task9/container/BookRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#2060#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="method#add#0;class#BookRepository#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/simpleclasses/task9/logic/BookRepositoryLogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -857,12 +761,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task3/container/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task4/container/Depot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task9/container/BookRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1011">
+          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#2060#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task10/view/AirlineRepositoryView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task10/view/AirlineView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task10/container/AirlineRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#2287#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1547#1548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task10/logic/AirlineRepositoryLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task10/entity/Airline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="87" lean-forward="true" selection-end-line="7" selection-end-column="87" />
+          <folding>
+            <element signature="e#0#638#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#Airline#0;class#Airline#0" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1558#1559#0" expanded="true" />
+            <element signature="e#1749#1750#0" expanded="true" />
+            <element signature="e#1783#1784#0" expanded="true" />
+            <element signature="e#1837#1838#0" expanded="true" />
+            <element signature="e#1883#1884#0" expanded="true" />
+            <element signature="e#1913#1914#0" expanded="true" />
+            <element signature="e#1942#1943#0" expanded="true" />
+            <element signature="e#1983#1984#0" expanded="true" />
+            <element signature="e#2019#2020#0" expanded="true" />
+            <element signature="e#2055#2056#0" expanded="true" />
+            <element signature="e#2087#2088#0" expanded="true" />
+            <element signature="e#2137#2138#0" expanded="true" />
+            <element signature="e#2179#2180#0" expanded="true" />
+            <element signature="e#2341#2342#0" expanded="true" />
+            <element signature="e#2371#2372#0" expanded="true" />
+            <element signature="e#2417#2418#0" expanded="true" />
+            <element signature="e#2455#2456#0" expanded="true" />
+            <element signature="e#2904#2905#0" expanded="true" />
+            <element signature="e#2994#2995#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/simpleclasses/task9/BookRepositoryRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="43" column="100" lean-forward="true" selection-start-line="43" selection-start-column="100" selection-end-line="43" selection-end-column="100" />
+        <state relative-caret-position="99">
+          <caret line="19" selection-start-line="19" selection-end-line="20" />
           <folding>
-            <element signature="e#0#1380#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleclasses/task10/AirlineRepositoryRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="44" column="99" selection-start-line="44" selection-start-column="99" selection-end-line="44" selection-end-column="99" />
+          <folding>
+            <element signature="e#0#654#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
