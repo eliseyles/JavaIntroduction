@@ -37,6 +37,7 @@ public class Task7 {
                     firstPoint++;
                 }
             }
+
             return index;
         }
         return new int[]{};
