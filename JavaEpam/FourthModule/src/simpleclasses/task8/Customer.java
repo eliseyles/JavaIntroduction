@@ -32,14 +32,15 @@ public class Customer {
         customerCount++;
     }
 
-    public Customer(int id, String surname, String name, String patronymic, String address, String creditCardId, String bankAccountId) {
-        this.id = id;
+    public Customer(String surname, String name, String patronymic, String address, String creditCardId, String bankAccountId) {
+        this.id = customerCount;
         this.surname = surname;
         this.name = name;
         this.patronymic = patronymic;
         this.address = address;
         this.creditCardId = creditCardId;
         this.bankAccountId = bankAccountId;
+        customerCount++;
     }
 
     public int getId() {

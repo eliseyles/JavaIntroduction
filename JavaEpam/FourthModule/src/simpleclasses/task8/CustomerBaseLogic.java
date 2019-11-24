@@ -13,7 +13,7 @@ public class CustomerBaseLogic {
         if (customerBase != null) {
             for (int i = 0; i < customerBase.size(); i++) {
                 for (int j = 0; j < customerBase.size(); j++) {
-                    if (compareByDestination(customerBase.getCustomer(i), customerBase.getCustomer(j))) {
+                    if (compareByName(customerBase.getCustomer(i), customerBase.getCustomer(j))) {
                         Customer customer = customerBase.getCustomer(i);
                         customerBase.setCustomer(i, customerBase.getCustomer(j));
                         customerBase.setCustomer(j, customer);
@@ -25,22 +25,36 @@ public class CustomerBaseLogic {
         return new CustomerBase();
     }
 
-    private boolean compareByDestination(Customer firstCustomer, Customer secondCustomer) {
+    private boolean compareByName(Customer firstCustomer, Customer secondCustomer) {
         if (firstCustomer != null && secondCustomer != null) {
-            if (firstCustomer.getSurname().equals(secondCustomer.getSurname())) {
-                if (firstCustomer.getName().equals(secondCustomer.getName())) {
-                    return String.CASE_INSENSITIVE_ORDER.
-                            compare(firstCustomer.getPatronymic(), secondCustomer.getPatronymic()) < 0;
-                } else {
-                    return String.CASE_INSENSITIVE_ORDER.
-                            compare(firstCustomer.getName(), secondCustomer.getName()) < 0;
+            boolean result = false;
+            if (firstCustomer.getSurname().compareTo(secondCustomer.getSurname()) == 0){
+                if (firstCustomer.getName().compareTo(secondCustomer.getName()) == 0){
+                    result =  firstCustomer.getPatronymic().compareTo(secondCustomer.getPatronymic()) < 0;
                 }
-            } else {
-                return String.CASE_INSENSITIVE_ORDER.
-                        compare(firstCustomer.getSurname(), secondCustomer.getSurname()) < 0;
+                result =  firstCustomer.getName().compareTo(secondCustomer.getName()) < 0;
             }
+            result =  firstCustomer.getSurname().compareTo(secondCustomer.getSurname()) < 0;
+            return result;
         }
         return false;
     }
-    
+
+    public CustomerBase getCustomerWithValidCard(CustomerBase customerBase, String lowBound, String highBound) {
+        if (lowBound != null && highBound != null) {
+            CustomerBase validCardCustomers = new CustomerBase();
+            for (int i = 0; i < customerBase.size(); i++) {
+                if (isCardNumberInBounds(customerBase.getCustomer(i).getCreditCardId(),lowBound, highBound)) {
+                    validCardCustomers.add(customerBase.getCustomer(i));
+                }
+            }
+            return validCardCustomers;
+        }
+        return new CustomerBase();
+    }
+
+    private boolean isCardNumberInBounds(String cardNumber, String lowBound, String highBound) {
+        return cardNumber.compareTo(lowBound) >= 0
+                && cardNumber.compareTo(highBound) <= 0;
+    }
 }
