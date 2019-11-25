@@ -4,20 +4,21 @@
 package by.training.eliseyles.agregation.task3.view;
 
 import by.training.eliseyles.agregation.task3.container.State;
+import by.training.eliseyles.agregation.task3.entity.City;
 import by.training.eliseyles.agregation.task3.logic.StateLogic;
 
 public class StateView {
-    public void printCapital(State state) {
-        new CityView().print(state.getCapital());
+    public void printCity(City city) {
+        new CityView().print(city);
         System.out.println();
     }
 
-    public void printRegionNumber(State state) {
-        System.out.println(state.getRegionNumber());
+    public void printNumber(int number) {
+        System.out.println(number);
     }
 
-    public void printSquare(State state) {
-        System.out.println(new StateLogic().getAllSquare(state));
+    public void printSquare(double square) {
+        System.out.println(square);
     }
 
     public void printMainRegionCity(State state) {

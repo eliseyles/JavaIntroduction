@@ -7,6 +7,7 @@ import by.training.eliseyles.agregation.task3.container.District;
 import by.training.eliseyles.agregation.task3.container.Region;
 import by.training.eliseyles.agregation.task3.container.State;
 import by.training.eliseyles.agregation.task3.entity.City;
+import by.training.eliseyles.agregation.task3.logic.StateLogic;
 import by.training.eliseyles.agregation.task3.view.StateView;
 
 import java.util.Random;
@@ -41,9 +42,9 @@ public class StateRunner {
         state.setCapital(new City(CITY[0]));
 
         new StateView().print(state);
-        new StateView().printCapital(state);
-        new StateView().printRegionNumber(state);
-        new StateView().printSquare(state);
+        new StateView().printCity(state.getCapital());
+        new StateView().printNumber(state.getRegionNumber());
+        new StateView().printSquare(new StateLogic().getAllSquare(state));
         new StateView().printMainRegionCity(state);
     }
 }
